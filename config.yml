@@ -10,23 +10,23 @@ libraries:
     - pmm: bafta
       template_variables:
         data:
-          starting: 2044  # when they started
-          ending: current_year
+          starting: first
+          ending: latest
     - pmm: golden
       template_variables:
         data:
-          starting: 1944  # when they started
-          ending: current_year
+          starting: first
+          ending: latest
     - pmm: oscars
       template_variables:
         data:
-          starting: 1928  # when they started
-          ending: current_year
+          starting: first
+          ending: latest
     - pmm: sundance
       template_variables:
         data:
-          starting: 2010  # when they started
-          ending: current_year
+          starting: first
+          ending: latest
     - pmm: separator_chart
     - pmm: basic
     - pmm: imdb
@@ -61,18 +61,18 @@ libraries:
     - pmm: bafta
       template_variables:
         data:
-          starting: 2014  # when they started
-          ending: current_year
+          starting: first
+          ending: latest
     - pmm: golden
       template_variables:
         data:
-          starting: 1944  # when they started
-          ending: current_year
+          starting: first
+          ending: latest
     - pmm: emmy
       template_variables:
         data:
-          starting: 1948  # when they started
-          ending: current_year
+          starting: first
+          ending: latest
     - pmm: separator_chart
     - pmm: basic
     - pmm: imdb
