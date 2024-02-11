@@ -4,7 +4,7 @@ libraries:
     template_variables:
       collection_mode: hide           # hide the collections in the "Library" tab
       placeholder_imdb_id: tt0117887  # put something in the placeholder so it'll be hidden - That Thing You Do! (1996)
-    collection_files:  # NOTE: this was metadata_path when I first started
+    collection_files:
     - folder: config/collections/Movies
     - pmm: separator_award
     - pmm: bafta
@@ -45,6 +45,8 @@ libraries:
         orginals_only: true
     - pmm: universe
     - pmm: based
+    metadata_files:
+      - folder: config/metadata/Movies
     overlay_files:
     - remove_overlays: false     # Set this to true to remove all overlays
     - pmm: ribbon
@@ -53,7 +55,7 @@ libraries:
     template_variables:
       collection_mode: hide            # hide the collections in the "Library" tab
       placeholder_imdb_id: tt11834592  # put something in the placeholder so it'll be hidden - Gaslit (2022)
-    collection_files:  # NOTE: this was metadata_path when I first started
+    collection_files:
     - folder: config/collections/TV
     - pmm: separator_award
     - pmm: bafta
@@ -80,6 +82,8 @@ libraries:
       template_variables:
         orginals_only: true
     - pmm: based
+    metadata_files:
+    - folder: config/metadata/TV
     overlay_files:
     - remove_overlays: false     # Set this to true to remove all overlays
     - pmm: ribbon
