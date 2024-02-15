@@ -1,6 +1,6 @@
 external_templates:
-  - file: templates/collections
-  - file: templates/dynamic_collections
+  - file: config/templates/collections
+  - file: config/templates/dynamic_collections
 
 collections:
 
