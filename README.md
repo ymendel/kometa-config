@@ -12,6 +12,54 @@ Useful links:
 - https://github.com/meisnate12/Plex-Meta-Manager-Configs/blob/master/nwithan8/tips_and_tricks.md
   - reproduced somewhat below; being adjusted
 
+TODOs:
+- move over all collections from config.yml to separate files
+  - Movies:
+    - awards (bafta, golden, oscars, sundance) — try no per-year collections
+    - "basic"
+    - imdb
+    - tmdb
+    - studio
+    - streaming (originals only)
+    - universe
+    - based
+  - TV:
+    - awards (bafta, golden, emmy) — try no per-year collections
+    - "basic"
+    - imdb
+    - tmdb
+    - network
+    - streaming (originals only)
+    - based
+- figure out separators
+- spooderman playlist
+- remove default recommendations in libraries (all this is from the libraries manage in Plex)
+  - Movies:
+    - recently released
+    - recently added (can stay)
+    - library playlists
+    - top movies in (genre)
+    - top movies by (actor or director)
+    - top unplayed
+    - seasonal
+    - recently played
+  - TV:
+    - recently released episodes
+    - recently added (can stay)
+    - library playlists
+    - start watching
+    - rediscover
+    - more from (network)
+    - more in (genre)
+    - top rated
+    - recently played episodes
+  - note these seem to be the defaults, from an "other videos" collection:
+    - continue watching
+    - recently added
+    - library playlists
+    - unplayed
+    - recently played
+- more collections, once the current stuff is taken care of
 
 ## Consideration / Concepts
 
@@ -31,7 +79,6 @@ Useful links:
 
 Prefixes in use:
 
-TODO: set this as desired
 ```
 # Prefixes for Collections:
 #   010_+ = New
