@@ -6,6 +6,7 @@ libraries:
       placeholder_imdb_id: tt0117887  # put something in the placeholder so it'll be hidden - That Thing You Do! (1996)
     collection_files:
     - folder: config/collections/Movies
+    - folder: config/collections/shared
     - pmm: separator_award
     - pmm: bafta
       template_variables:
@@ -32,17 +33,9 @@ libraries:
     - pmm: imdb
     - pmm: tmdb
     - pmm: studio
-    - pmm: seasonal
-      template_variables:
-        schedule_independence: never
-        schedule_labor: never
-        schedule_memorial: never
-        schedule_mother: never
-        schedule_thanksgiving: never
-        schedule_veteran: never
     - pmm: streaming
       template_variables:
-        orginals_only: true
+        originals_only: true
     - pmm: universe
     - pmm: based
     metadata_files:
@@ -57,6 +50,7 @@ libraries:
       placeholder_imdb_id: tt11834592  # put something in the placeholder so it'll be hidden - Gaslit (2022)
     collection_files:
     - folder: config/collections/TV
+    - folder: config/collections/shared
     - pmm: separator_award
     - pmm: bafta
       template_variables:
@@ -89,7 +83,7 @@ libraries:
     - pmm: ribbon
     - pmm: status
 playlist_files:
-- pmm: playlist                  # This is a file within PMM's defaults folder
+- pmm: playlist
   template_variables:
     libraries: Movies, TV Shows  # list of libraries that you want the PMM Defaults playlists to look at
 settings:

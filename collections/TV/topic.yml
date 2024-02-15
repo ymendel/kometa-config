@@ -1,21 +1,11 @@
-templates:
-  Collection:
-    sync_mode: sync
-    collection_mode: hide
+external_templates:
+  - file: templates/collections
+  - file: templates/dynamic_collections
 
 collections:
-  Anthology:
-    template: {name: Collection}
-    tmdb_keyword: 9706
+
   Mystery Box:
     template: {name: Collection}
     imdb_list:
     - https://www.imdb.com/list/ls520446971/
     visible_library: true
-    visible_home: false
-  Stand-up Comedy:
-    template: {name: Collection}
-    tmdb_keyword: 9716
-  Time Travel:
-    template: {name: Collection}
-    tmdb_keyword: 4379

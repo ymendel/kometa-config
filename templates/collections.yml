@@ -1,0 +1,348 @@
+# taken from nwithan8
+#
+# external_templates:
+#   git: PMM/collections
+
+templates:
+  New:
+    default:
+      emoji: ""
+      level: ""
+      sort_title_name: <<mapping_name>>
+    name: <<emoji>> <<mapping_name>>
+    sort_title: 010_+<<level>>_<<sort_title_name>>
+    collection_mode: hide
+    optional:
+      - poster_url
+    sync_mode: sync
+    schedule: daily
+    visible_home: true
+    visible_library: true
+    visible_shared: false
+    url_poster: <<poster_url>>
+
+  InMemoriamActor:
+    default:
+      emoji: ""
+      level: ""
+      sort_title_name: <<mapping_name>>
+    name: <<emoji>> <<mapping_name>>
+    sort_title: 020_+<<level>>_<<sort_title_name>>
+    collection_mode: hide
+    smart_filter:
+      sort_by: release.desc  # revisit, maybe asc
+      any:
+        actor: tmdb
+    tmdb_person: <<tmdb_id>>
+    sync_mode: append  # append? not sync?
+    visible_home: true
+    visible_library: true
+    visible_shared: true
+
+  InMemoriamDirector:
+    default:
+      emoji: ""
+      level: ""
+      sort_title_name: <<mapping_name>>
+    name: <<emoji>> <<mapping_name>>
+    sort_title: 021_+<<level>>_<<sort_title_name>>
+    collection_mode: hide
+    smart_filter:
+      sort_by: release.desc  # revisit, maybe asc
+      any:
+        director: tmdb
+    tmdb_person: <<tmdb_id>>
+    sync_mode: append  # append? not sync?
+    visible_home: true
+    visible_library: true
+    visible_shared: true
+
+  Holiday:
+    default:
+      emoji: ""
+      level: ""
+      sort_title_name: <<mapping_name>>
+      # unfortunately can't operate on these ranges, so need to have them separate
+      schedule: never
+      visible: never
+    name: <<emoji>> <<mapping_name>>
+    sort_title: 030_+<<level>>_<<sort_title_name>>
+    collection_mode: hide
+    optional:
+      - poster_url
+    sync_mode: sync
+    url_poster: <<poster_url>>
+    collection_order: random
+    schedule: <<schedule>>
+    visible_home: <<visible>>
+    visible_library: <<visible>>
+    visible_shared: <<visible>>
+
+  Chart:
+    default:
+      emoji: ""
+      level: ""
+      sort_title_name: <<mapping_name>>
+    name: <<emoji>> <<mapping_name>>
+    sort_title: 040_+<<level>>_<<sort_title_name>>
+    collection_mode: hide
+    optional:
+      - poster_url
+    sync_mode: sync
+    schedule: daily
+    visible_home: false
+    visible_library: true
+    visible_shared: false
+    url_poster: <<poster_url>>
+
+  Award:
+    default:
+      emoji: ""
+      level: ""
+      sort_title_name: <<mapping_name>>
+    name: <<emoji>> <<mapping_name>>
+    sort_title: 050_+<<level>>_<<sort_title_name>>
+    collection_mode: hide
+    optional:
+      - poster_url
+    sync_mode: sync
+    schedule:
+      - weekly(wednesday)
+      - weekly(sunday)
+    visible_home: false
+    visible_library: false
+    visible_shared: false
+    url_poster: <<poster_url>>
+
+  ActorAward:
+    default:
+      emoji: ""
+      level: ""
+      sort_title_name: <<mapping_name>>
+    name: <<emoji>> <<mapping_name>>
+    sort_title: 051_+<<level>>_<<sort_title_name>>
+    collection_mode: hide
+    smart_filter: # smart filter means Plex will automatically update the collection when new movies aru added, rather than having to rerun the script
+      all:
+        actor: tmdb
+    tmdb_person: <<tmdb_id>>
+    sync_mode: append  # append again? why not sync?
+    schedule:
+      - weekly(wednesday)
+      - weekly(sunday)
+    visible_home: false
+    visible_library: false
+    visible_shared: false
+
+  # what a name. figure this out
+  Collection:
+    default:
+      emoji: ""
+      level: ""
+      sort_title_name: <<mapping_name>>
+    name: <<emoji>> <<mapping_name>>
+    sort_title: 065_+<<level>>_<<sort_title_name>>
+    collection_mode: hide
+    optional:
+      - poster_url
+    sync_mode: sync
+    schedule: daily
+    visible_home: false
+    visible_library: false
+    visible_shared: false
+    url_poster: <<poster_url>>
+
+  Franchise:
+    default:
+      emoji: ""
+      level: ""
+      sort_title_name: <<mapping_name>>
+    name: <<emoji>> <<mapping_name>>
+    sort_title: 066_+<<level>>_<<sort_title_name>>
+    collection_mode: hide
+    optional:
+      - poster_url
+    sync_mode: sync
+    schedule:
+      - weekly(wednesday)
+      - weekly(sunday)
+    visible_home: false
+    visible_library: false
+    visible_shared: false
+    url_poster: <<poster_url>>
+
+  Genre:
+    default:
+      emoji: ""
+      level: ""
+      sort_title_name: <<mapping_name>>
+    name: <<emoji>> <<mapping_name>>
+    sort_title: 070_+<<level>>_<<sort_title_name>>
+    collection_mode: hide
+    optional:
+      - poster_url
+    sync_mode: sync
+    schedule:
+      - weekly(wednesday)
+      - weekly(sunday)
+    visible_home: false
+    visible_library: false
+    visible_shared: false
+    url_poster: <<poster_url>>
+
+  Decade:
+    default:
+      emoji: ""
+      level: ""
+      sort_title_name: <<mapping_name>>
+    name: <<emoji>> <<mapping_name>>
+    sort_title: 080_+<<level>>_<<sort_title_name>>
+    collection_mode: hide
+    optional:
+      - poster_url
+    sync_mode: sync
+    schedule:
+      - weekly(wednesday)
+      - weekly(sunday)
+    visible_home: false
+    visible_library: false
+    visible_shared: false
+    url_poster: <<poster_url>>
+
+  Person:
+    default:
+      emoji: ""
+      level: ""
+      sort_title_name: <<mapping_name>>
+    name: <<emoji>> <<mapping_name>>
+    sort_title: 090_+<<level>>_<<sort_title_name>>
+    collection_mode: hide
+    smart_filter:
+      sort_by: release.desc
+      any:
+        actor: tmdb
+        director: tmdb
+        producer: tmdb
+        writer: tmdb
+    tmdb_person: <<tmdb_id>>
+    sync_mode: append
+    visible_home: false
+    visible_library: false
+    visible_shared: false
+
+  Actor:
+    default:
+      emoji: ""
+      level: ""
+      sort_title_name: <<mapping_name>>
+    name: <<emoji>> <<mapping_name>>
+    sort_title: 090_+<<level>>_<<sort_title_name>>
+    collection_mode: hide
+    tmdb_actor_details: <<tmdb_id>>
+    sync_mode: append
+    visible_home: false
+    visible_library: false
+    visible_shared: false
+
+  Director:
+    default:
+      emoji: ""
+      level: ""
+      sort_title_name: <<mapping_name>>
+    name: <<emoji>> <<mapping_name>>
+    sort_title: 091_+<<level>>_<<sort_title_name>>
+    collection_mode: hide
+    tmdb_director_details: <<tmdb_id>>
+    sync_mode: append
+    visible_home: false
+    visible_library: false
+    visible_shared: false
+
+  Producer:
+    default:
+      emoji: ""
+      level: ""
+      sort_title_name: <<mapping_name>>
+    name: <<emoji>> <<mapping_name>>
+    sort_title: 092_+<<level>>_<<sort_title_name>>
+    collection_mode: hide
+    tmdb_producer_details: <<tmdb_id>>
+    sync_mode: append
+    visible_home: false
+    visible_library: false
+    visible_shared: false
+
+  Studio:
+    default:
+      emoji: ""
+      level: ""
+      sort_title_name: <<mapping_name>>
+    name: <<emoji>> <<mapping_name>>
+    sort_title: 100_+<<level>>_<<sort_title_name>>
+    collection_mode: hide
+    optional:
+      - poster
+    smart_filter:
+      sort_by: release.desc
+      validate: false
+      any:
+        studio: <<studio>>
+    visible_home: false
+    visible_library: false
+    visible_shared: false
+    url_poster: <<poster>>
+
+  Network:
+    default:
+      emoji: ""
+      level: ""
+      sort_title_name: <<mapping_name>>
+    name: <<emoji>> <<mapping_name>>
+    sort_title: 100_+<<level>>_<<sort_title_name>>
+    collection_mode: hide
+    optional:
+      - poster
+    smart_filter:
+      sort_by: title.desc
+      validate: false
+      any:
+        network: <<network>>
+    visible_home: false
+    visible_library: false
+    visible_shared: false
+    url_poster: <<poster>>
+
+  Country:
+    default:
+      emoji: ""
+      level: ""
+      sort_title_name: <<mapping_name>>
+    name: <<emoji>> <<mapping_name>>
+    sort_title: 110_+<<level>>_<<sort_title_name>>
+    collection_mode: hide
+    optional:
+      - poster_url
+    sync_mode: sync
+    schedule:
+      - weekly(wednesday)
+      - weekly(sunday)
+    visible_home: false
+    visible_library: false
+    visible_shared: false
+    url_poster: <<poster_url>>
+
+  General:
+    default:
+      emoji: ""
+      level: ""
+      sort_title_name: <<mapping_name>>
+    name: <<emoji>> <<mapping_name>>
+    sort_title: 120_+<<level>>_<<sort_title_name>>
+    collection_mode: hide
+    sync_mode: sync
+    schedule:
+      - weekly(wednesday)
+      - weekly(sunday)
+    visible_home: false
+    visible_library: true
+    visible_shared: false
