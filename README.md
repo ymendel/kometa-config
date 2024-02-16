@@ -20,17 +20,13 @@ TODOs:
     - imdb
     - tmdb
     - studio
-    - streaming (originals only)
     - universe
-    - based
   - TV:
     - awards (bafta, golden, emmy) — try no per-year collections
     - "basic"
     - imdb
     - tmdb
     - network
-    - streaming (originals only)
-    - based
 - figure out separators
 - spooderman playlist
 - remove default recommendations in libraries (all this is from the libraries manage in Plex)
@@ -90,7 +86,7 @@ Prefixes in use:
 #   070_+ = Genres
 #   080_+ = Decades
 #   090_+ = People
-#   100_+ = Studios / Networks
+#   100_+ = Studios / Networks / Streaming
 #   110_+ = Countries
 #   120_+ = General / Unspecified
 ```

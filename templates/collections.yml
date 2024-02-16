@@ -29,6 +29,8 @@ templates:
     name: <<emoji>> <<mapping_name>>
     sort_title: 020_+<<level>>_<<sort_title_name>>
     collection_mode: hide
+    optional:
+      - poster_url
     smart_filter:
       sort_by: release.desc  # revisit, maybe asc
       any:
@@ -38,6 +40,7 @@ templates:
     visible_home: true
     visible_library: true
     visible_shared: true
+    url_poster: <<poster_url>>
 
   InMemoriamDirector:
     default:
@@ -47,6 +50,8 @@ templates:
     name: <<emoji>> <<mapping_name>>
     sort_title: 021_+<<level>>_<<sort_title_name>>
     collection_mode: hide
+    optional:
+      - poster_url
     smart_filter:
       sort_by: release.desc  # revisit, maybe asc
       any:
@@ -56,6 +61,7 @@ templates:
     visible_home: true
     visible_library: true
     visible_shared: true
+    url_poster: <<poster_url>>
 
   Holiday:
     default:
@@ -71,12 +77,12 @@ templates:
     optional:
       - poster_url
     sync_mode: sync
-    url_poster: <<poster_url>>
     collection_order: random
     schedule: <<schedule>>
     visible_home: <<visible>>
     visible_library: <<visible>>
     visible_shared: <<visible>>
+    url_poster: <<poster_url>>
 
   Chart:
     default:
@@ -122,7 +128,9 @@ templates:
     name: <<emoji>> <<mapping_name>>
     sort_title: 051_+<<level>>_<<sort_title_name>>
     collection_mode: hide
-    smart_filter: # smart filter means Plex will automatically update the collection when new movies aru added, rather than having to rerun the script
+    optional:
+      - poster_url
+    smart_filter:
       all:
         actor: tmdb
     tmdb_person: <<tmdb_id>>
@@ -133,6 +141,7 @@ templates:
     visible_home: false
     visible_library: false
     visible_shared: false
+    url_poster: <<poster_url>>
 
   # what a name. figure this out
   Collection:
@@ -217,6 +226,8 @@ templates:
     name: <<emoji>> <<mapping_name>>
     sort_title: 090_+<<level>>_<<sort_title_name>>
     collection_mode: hide
+    optional:
+      - poster_url
     smart_filter:
       sort_by: release.desc
       any:
@@ -229,6 +240,7 @@ templates:
     visible_home: false
     visible_library: false
     visible_shared: false
+    url_poster: <<poster_url>>
 
   Actor:
     default:
@@ -238,11 +250,14 @@ templates:
     name: <<emoji>> <<mapping_name>>
     sort_title: 090_+<<level>>_<<sort_title_name>>
     collection_mode: hide
+    optional:
+      - poster_url
     tmdb_actor_details: <<tmdb_id>>
     sync_mode: append
     visible_home: false
     visible_library: false
     visible_shared: false
+    url_poster: <<poster_url>>
 
   Director:
     default:
@@ -252,11 +267,14 @@ templates:
     name: <<emoji>> <<mapping_name>>
     sort_title: 091_+<<level>>_<<sort_title_name>>
     collection_mode: hide
+    optional:
+      - poster_url
     tmdb_director_details: <<tmdb_id>>
     sync_mode: append
     visible_home: false
     visible_library: false
     visible_shared: false
+    url_poster: <<poster_url>>
 
   Producer:
     default:
@@ -266,11 +284,14 @@ templates:
     name: <<emoji>> <<mapping_name>>
     sort_title: 092_+<<level>>_<<sort_title_name>>
     collection_mode: hide
+    optional:
+      - poster_url
     tmdb_producer_details: <<tmdb_id>>
     sync_mode: append
     visible_home: false
     visible_library: false
     visible_shared: false
+    url_poster: <<poster_url>>
 
   Studio:
     default:
@@ -281,7 +302,7 @@ templates:
     sort_title: 100_+<<level>>_<<sort_title_name>>
     collection_mode: hide
     optional:
-      - poster
+      - poster_url
     smart_filter:
       sort_by: release.desc
       validate: false
@@ -290,7 +311,7 @@ templates:
     visible_home: false
     visible_library: false
     visible_shared: false
-    url_poster: <<poster>>
+    url_poster: <<poster_url>>
 
   Network:
     default:
@@ -301,7 +322,7 @@ templates:
     sort_title: 100_+<<level>>_<<sort_title_name>>
     collection_mode: hide
     optional:
-      - poster
+      - poster_url
     smart_filter:
       sort_by: title.desc
       validate: false
@@ -310,7 +331,22 @@ templates:
     visible_home: false
     visible_library: false
     visible_shared: false
-    url_poster: <<poster>>
+    url_poster: <<poster_url>>
+
+  Streaming:
+    default:
+      emoji: ""
+      level: ""
+      sort_title_name: <<mapping_name>>
+    name: <<emoji>> <<mapping_name>>
+    sort_title: 100_+<<level>>_<<sort_title_name>>
+    collection_mode: hide
+    optional:
+      - poster_url
+    visible_home: false
+    visible_library: false
+    visible_shared: false
+    url_poster: <<poster_url>>
 
   Country:
     default:
@@ -339,10 +375,10 @@ templates:
     name: <<emoji>> <<mapping_name>>
     sort_title: 120_+<<level>>_<<sort_title_name>>
     collection_mode: hide
+    optional:
+      - poster_url
     sync_mode: sync
-    schedule:
-      - weekly(wednesday)
-      - weekly(sunday)
     visible_home: false
-    visible_library: true
+    visible_library: false
     visible_shared: false
+    url_poster: <<poster_url>>

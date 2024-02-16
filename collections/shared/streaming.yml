@@ -1,0 +1,46 @@
+external_templates:
+  - file: config/templates/collections
+  - file: config/templates/dynamic_collections
+
+dynamic_collections:
+
+  Streaming:
+    type: custom
+    data:
+      all4: All 4
+      appletv: Apple TV+
+      bet: BET+
+      britbox: BritBox
+      crave: Crave
+      crunchyroll: Crunchyroll
+      discovery: discovery+
+      disney: Disney+
+      hayu: hayu
+      max: Max
+      hulu: Hulu
+      netflix: Netflix
+      now: NOW
+      paramount: Paramount+
+      peacock: Peacock
+      amazon: Prime Video
+      showtime: Showtime
+    title_format: <<key_name>> <<library_typeU>>s
+    template:
+      - mdb_streaming
+      - Streaming
+    template_variables:
+      poster_url:
+        # TODO: conditional on originals_only to decide on <<library_type>>s vs. originals?
+        default: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/streaming/<<key_name_encoded>>_<<library_type>>s.jpg
+      image:
+        default: streaming/<<key_name_encoded>>
+      originals_only:
+        default: true
+      allowed_libraries:
+        hayu: show
+        discovery: show
+        crunchyroll: show
+      translation_key:
+        default: streaming
+      dynamic:
+        default: true

@@ -33,11 +33,7 @@ libraries:
     - pmm: imdb
     - pmm: tmdb
     - pmm: studio
-    - pmm: streaming
-      template_variables:
-        originals_only: true
     - pmm: universe
-    - pmm: based
     metadata_files:
       - folder: config/metadata/Movies
     overlay_files:
@@ -72,10 +68,6 @@ libraries:
     - pmm: imdb
     - pmm: tmdb
     - pmm: network
-    - pmm: streaming
-      template_variables:
-        orginals_only: true
-    - pmm: based
     metadata_files:
     - folder: config/metadata/TV
     overlay_files:

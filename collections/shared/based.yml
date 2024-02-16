@@ -1,0 +1,26 @@
+external_templates:
+  - file: config/templates/collections
+  - file: config/templates/dynamic_collections
+
+dynamic_collections:
+
+  Based:
+    type: custom
+    data:
+      books: Book
+      comics: Comic
+      true_story: True Story
+      video_games: Video Game
+    title_format: Based on a <<key_name>>
+    template:
+      - mdb_smart
+      - General
+    template_variables:
+      poster_url:
+        default: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/based/<<key_name_encoded>>.jpg
+      mdblist_list:
+        default: https://mdblist.com/lists/plexmetamanager/based_on_<<key>>_<<library_type>>s
+      image:
+        default: based/<<key_name_encoded>>
+      dynamic:
+        default: true

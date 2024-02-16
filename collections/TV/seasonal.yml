@@ -7,17 +7,24 @@ external_templates:
 collections:
 
   Election Day:
-    template: { name: Holiday, emoji: "🗳️", schedule: range(10/25-11/12), visible: range(10/25-11/11) }
+    template:
+      name: Holiday
+      emoji: "🗳️"
+      schedule: range(10/25-11/12)
+      visible: range(10/25-11/11)
     summary: "I like the noise of democracy."
     trakt_list:
       - https://trakt.tv/users/majeed_pk/lists/political-tv-series
 
   Thanksgiving:
-    template: { name: Holiday, emoji: "🦃", schedule: range(11/01-12/01), visible: range(11/01-11/30) }
+    template:
+      name: Holiday
+      emoji: "🦃"
+      schedule: range(11/01-12/01)
+      visible: range(11/01-11/30)
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/thanksgiving.jpg
     summary: "Gobble gobble!"
     builder_level: episode
     trakt_list:
       # TODO: add my own list for West Wing episodes
       - https://trakt.tv/users/rrrossettiii/lists/thanksgiving-episodes
-    poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/thanksgiving.jpg
-
