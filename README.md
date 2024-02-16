@@ -15,7 +15,6 @@ Useful links:
 TODOs:
 - move over all collections from config.yml to separate files
   - Movies:
-    - awards (bafta, golden, oscars, sundance) — try no per-year collections
     - "basic"
     - imdb
     - tmdb

@@ -4,6 +4,7 @@
 #   git: PMM/collections
 
 templates:
+
   New:
     default:
       emoji: ""
@@ -112,9 +113,6 @@ templates:
     optional:
       - poster_url
     sync_mode: sync
-    schedule:
-      - weekly(wednesday)
-      - weekly(sunday)
     visible_home: false
     visible_library: false
     visible_shared: false

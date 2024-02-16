@@ -1,0 +1,106 @@
+external_templates:
+  - folder: config/templates
+
+collections:
+
+  BAFTA Best Picture Winners:
+    template:
+      - name: Award
+        poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/bafta/best_picture_winner.jpg
+    imdb_award:
+      event_id: ev0000123
+      event_year: all
+      category_filter: best film
+      winning: true
+
+  BAFTA Best Director Winners:
+    template:
+      - name: Award
+        poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/bafta/best_director_winner.jpg
+    imdb_award:
+      event_id: ev0000123
+      event_year: all
+      category_filter: best director
+      winning: true
+
+  Golden Globes Best Picture Winners:
+    template:
+      - name: Award
+        poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/golden/best_picture_winner.jpg
+    imdb_award:
+      event_id: ev0000292
+      event_year: all
+      category_filter:
+        - best motion picture - animated
+        - best motion picture - comedy
+        - best motion picture - comedy or musical
+        - best motion picture - drama
+        - best motion picture - foreign language
+        - best motion picture - musical
+        - best motion picture - musical or comedy
+        - best motion picture - non-english language
+        - best motion picture, animated
+        - best motion picture, drama
+        - best motion picture, musical or comedy
+        - best motion picture, non-english language
+      winning: true
+
+  Golden Globes Best Director Winners:
+    template:
+      - name: Award
+        poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/golden/best_director_winner.jpg
+    imdb_award:
+      event_id: ev0000292
+      event_year: all
+      category_filter:
+        - best director
+        - best director - motion picture
+        - best director, motion picture
+      winning: true
+    
+  Oscars Best Picture Winners:
+    template:
+      - name: Award
+        poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/oscars/best_picture_winner.jpg
+    imdb_award:
+      event_id: ev0000003
+      event_year: all
+      category_filter:
+        - best picture
+        - best motion picture of the year
+      winning: true
+
+  Oscars Best Director Winners:
+    template: 
+      - name: Award
+        poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/oscars/best_director_winner.jpg
+    imdb_award:
+      event_id: ev0000003
+      event_year: all
+      category_filter:
+        - best achievement in directing
+        - best director
+        - best director, comedy picture
+        - best director, dramatic picture
+      winning: true
+
+  # TODO: figure out best picture
+  Sundance Best Director Winners:
+    template:
+      - name: Award
+        poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/sundance/best_director_winner.jpg
+    imdb_award:
+      event_id: ev0000631
+      event_year: all
+      award_filter: directing award
+      winning: true
+
+  Sundance Grand Jury Winners:
+    template:
+      - name: Award
+        poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/sundance/grand_jury_winner.jpg
+    imdb_award:
+      event_id: ev0000631
+      event_year: all
+      award_filter: grand jury prize
+      winning: true

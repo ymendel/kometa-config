@@ -4,8 +4,7 @@
 # note the use of smart filter in the regular collections templates
 
 templates:
-  # Dynamic Collections Templates
-  # -----------------------------
+
   Per_Decade:
     smart_filter:
       sort_by: audience_rating.desc
