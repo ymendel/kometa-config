@@ -2,8 +2,7 @@
 # in other places from PMM seasonal defaults
 
 external_templates:
-  - file: config/templates/collections
-  - file: config/templates/dynamic_collections
+  - folder: config/templates
 
 # Note: need to do schedule and visible separately, because I can't operate
 # on the ranges and say "schedule for one day longer than the visibility"

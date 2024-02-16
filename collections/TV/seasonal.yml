@@ -1,8 +1,7 @@
 # mostly taken from nwithan8
 
 external_templates:
-  - file: config/templates/collections
-  - file: config/templates/dynamic_collections
+  - folder: config/templates
 
 collections:
 

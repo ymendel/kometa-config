@@ -1,6 +1,5 @@
 external_templates:
-  - file: config/templates/collections
-  - file: config/templates/dynamic_collections
+  - folder: config/templates
 
 # some summaries are set because I don't want the _full_ list description here
 
