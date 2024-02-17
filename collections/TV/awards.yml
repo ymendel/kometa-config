@@ -5,8 +5,8 @@ collections:
 
   BAFTA Best in Category Winners:
     template:
-      - name: Award
-        poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/bafta/winner.jpg
+      name: Award
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/bafta/winner.jpg
     imdb_award:
       event_id: ev0000123
       event_year: all
@@ -48,8 +48,8 @@ collections:
 
   Emmys Best in Category Winners:
     template:
-      - name: Award
-        poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner.jpg
+      name: Award
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner.jpg
     imdb_award:
       event_id: ev0000223
       event_year: all
@@ -82,7 +82,7 @@ collections:
 
   Golden Globes Best in Category Winners:
     template:
-    - name: Award
+      name: Award
       poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/golden/winner.jpg
     imdb_award:
       event_id: ev0000292

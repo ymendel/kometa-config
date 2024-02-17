@@ -5,8 +5,8 @@ collections:
 
   BAFTA Best Picture Winners:
     template:
-      - name: Award
-        poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/bafta/best_picture_winner.jpg
+      name: Award
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/bafta/best_picture_winner.jpg
     imdb_award:
       event_id: ev0000123
       event_year: all
@@ -15,8 +15,8 @@ collections:
 
   BAFTA Best Director Winners:
     template:
-      - name: Award
-        poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/bafta/best_director_winner.jpg
+      name: Award
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/bafta/best_director_winner.jpg
     imdb_award:
       event_id: ev0000123
       event_year: all
@@ -25,8 +25,8 @@ collections:
 
   Golden Globes Best Picture Winners:
     template:
-      - name: Award
-        poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/golden/best_picture_winner.jpg
+      name: Award
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/golden/best_picture_winner.jpg
     imdb_award:
       event_id: ev0000292
       event_year: all
@@ -47,8 +47,8 @@ collections:
 
   Golden Globes Best Director Winners:
     template:
-      - name: Award
-        poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/golden/best_director_winner.jpg
+      name: Award
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/golden/best_director_winner.jpg
     imdb_award:
       event_id: ev0000292
       event_year: all
@@ -60,8 +60,8 @@ collections:
 
   Oscars Best Picture Winners:
     template:
-      - name: Award
-        poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/oscars/best_picture_winner.jpg
+      name: Award
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/oscars/best_picture_winner.jpg
     imdb_award:
       event_id: ev0000003
       event_year: all
@@ -72,8 +72,8 @@ collections:
 
   Oscars Best Director Winners:
     template:
-      - name: Award
-        poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/oscars/best_director_winner.jpg
+      name: Award
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/oscars/best_director_winner.jpg
     imdb_award:
       event_id: ev0000003
       event_year: all
@@ -87,8 +87,8 @@ collections:
   # TODO: figure out best picture
   Sundance Best Director Winners:
     template:
-      - name: Award
-        poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/sundance/best_director_winner.jpg
+      name: Award
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/sundance/best_director_winner.jpg
     imdb_award:
       event_id: ev0000631
       event_year: all
@@ -97,8 +97,8 @@ collections:
 
   Sundance Grand Jury Winners:
     template:
-      - name: Award
-        poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/sundance/grand_jury_winner.jpg
+      name: Award
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/sundance/grand_jury_winner.jpg
     imdb_award:
       event_id: ev0000631
       event_year: all
