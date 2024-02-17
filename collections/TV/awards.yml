@@ -1,0 +1,94 @@
+external_templates:
+  - folder: config/templates
+
+collections:
+
+  BAFTA Best in Category Winners:
+    template:
+      - name: Award
+        poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/bafta/winner.jpg
+    imdb_award:
+      event_id: ev0000123
+      event_year: all
+      category_filter:
+        - comedy entertainment programme
+        - current affairs
+        - daytime
+        - drama series
+        - entertainment programme
+        - factual series
+        - mini-series
+        - reality & constructed factual
+        - scripted comedy
+        - short form programme
+        - single documentary
+        - single drama
+        - soap & continuing drama
+        - specialist factual
+        - best drama play
+        - best drama series
+        - "best factual: current affairs"
+        - "best factual: documentary"
+        - best light entertainment
+        - best light entertainment series/serial
+        - best specialised programme
+        - best documentary programme
+        - best drama series/serial
+        - best situation comedy
+        - best factual series
+        - "'flame of knowledge'"
+        - "'harlequin' (documentary/factual)"
+        - "'harlequin' (drama/light entertainment)"
+      winning: true
+
+  Emmys Best in Category Winners:
+    template:
+      - name: Award
+        poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner.jpg
+    imdb_award:
+      event_id: ev0000223
+      event_year: all
+      category_filter:
+        - best comedy series
+        - best comedy show
+        - best dramatic anthology series
+        - best dramatic program
+        - best dramatic series
+        - best dramatic series - less than one hour
+        - best dramatic series - one hour or longer
+        - best series - half hour or less
+        - best series - one hour or more
+        - outstanding animated program
+        - outstanding animated program (for programming less than one hour)
+        - outstanding animated program (for programming more than one hour)
+        - outstanding animated program (for programming one hour or less)
+        - outstanding animated program (for programming one hour or more)
+        - outstanding animated programming
+        - outstanding comedy series
+        - outstanding drama series
+        - outstanding drama series - continuing
+        - outstanding drama/comedy - limited episodes
+        - outstanding dramatic program
+        - outstanding dramatic series
+        - outstanding miniseries
+        - outstanding series - comedy
+        - outstanding series - drama
+      winning: true
+
+  Golden Globes Best in Category Winners:
+    template:
+    - name: Award
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/golden/winner.jpg
+    imdb_award:
+      event_id: ev0000292
+      event_year: all
+      category_filter:
+        - best television series, drama
+        - best television series, musical or comedy
+        - best television limited series, anthology series, or motion picture made for television
+        - best miniseries or motion picture made for television
+        - best television series - comedy or musical
+        - best television series - drama
+        - best television special - variety or musical
+        - best tv show
+      winning: true

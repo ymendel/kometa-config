@@ -57,7 +57,7 @@ collections:
         - best director - motion picture
         - best director, motion picture
       winning: true
-    
+
   Oscars Best Picture Winners:
     template:
       - name: Award
@@ -71,7 +71,7 @@ collections:
       winning: true
 
   Oscars Best Director Winners:
-    template: 
+    template:
       - name: Award
         poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/oscars/best_director_winner.jpg
     imdb_award:

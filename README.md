@@ -21,7 +21,6 @@ TODOs:
     - studio
     - universe
   - TV:
-    - awards (bafta, golden, emmy) — try no per-year collections
     - "basic"
     - imdb
     - tmdb
