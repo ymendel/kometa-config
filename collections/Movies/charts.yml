@@ -1,0 +1,48 @@
+external_templates:
+  - folder: config/templates
+
+collections:
+
+  Newly Released:
+    template:
+      name: Chart
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/Newly%20Released.jpg
+    smart_filter:
+      sort_by: release.desc
+      any:
+        release: 90
+
+  IMDb Popular:
+    template:
+      name: Chart
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/IMDb%20Popular.jpg
+    collection_order: custom
+    imdb_chart: popular_movies
+
+  IMDb Top 250:
+    template:
+      name: Chart
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/IMDb%20Top%20250.jpg
+    collection_order: custom
+    imdb_chart: top_movies
+
+  IMDb Lowest Rated:
+    template:
+      name: Chart
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/IMDb%20Lowest%20Rated.jpg
+    collection_order: custom
+    imdb_chart: lowest_rated
+
+  TMDb Popular:
+    template:
+      name: Chart
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/TMDb%20Popular.jpg
+    collection_order: custom
+    tmdb_popular: 100
+
+  TMDb Top Rated:
+    template:
+      name: Chart
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/TMDb%20Top%20Rated.jpg
+    collection_order: custom
+    tmdb_top_rated: 250

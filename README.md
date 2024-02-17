@@ -15,16 +15,12 @@ Useful links:
 TODOs:
 - move over all collections from config.yml to separate files
   - Movies:
-    - "basic"
-    - imdb
-    - tmdb
-    - studio
-    - universe
+    - still want these?
+      - studio
+      - universe
   - TV:
-    - "basic"
-    - imdb
-    - tmdb
-    - network
+    - still want these?
+      - network
 - figure out separators
 - spooderman playlist
 - remove default recommendations in libraries (all this is from the libraries manage in Plex)

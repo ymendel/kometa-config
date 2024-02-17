@@ -7,12 +7,6 @@ libraries:
     collection_files:
     - folder: config/collections/Movies
     - folder: config/collections/shared
-    - pmm: separator_chart
-    - pmm: basic
-    - pmm: imdb
-    - pmm: tmdb
-    - pmm: studio
-    - pmm: universe
     metadata_files:
       - folder: config/metadata/Movies
     overlay_files:
@@ -26,11 +20,6 @@ libraries:
     collection_files:
     - folder: config/collections/TV
     - folder: config/collections/shared
-    - pmm: separator_chart
-    - pmm: basic
-    - pmm: imdb
-    - pmm: tmdb
-    - pmm: network
     metadata_files:
     - folder: config/metadata/TV
     overlay_files:
