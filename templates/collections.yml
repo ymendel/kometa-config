@@ -189,9 +189,7 @@ templates:
     optional:
       - poster_url
     sync_mode: sync
-    schedule:
-      - weekly(wednesday)
-      - weekly(sunday)
+    schedule: daily
     visible_home: false
     visible_library: false
     visible_shared: false

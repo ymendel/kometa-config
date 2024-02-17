@@ -5,7 +5,7 @@ collections:
 
   Mystery Box:
     template:
-      name: Collection
+      name: Genre
       poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Mystery%20Box.jpg
     imdb_list:
     - https://www.imdb.com/list/ls520446971/
