@@ -4,7 +4,9 @@ external_templates:
 collections:
 
   Mystery Box:
-    template: {name: Collection}
+    template:
+      name: Collection
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Mystery%20Box.jpg
     imdb_list:
     - https://www.imdb.com/list/ls520446971/
     visible_library: true

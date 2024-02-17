@@ -4,14 +4,20 @@ external_templates:
 collections:
 
   Anthology:
-    template: {name: Collection}
+    template:
+      name: Collection
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Anthology.jpg
     tmdb_keyword: 9706
 
   Stand-up Comedy:
-    template: {name: Collection}
+    template:
+      name: Collection
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Stand-Up%20Comedy.jpg
     tmdb_keyword: 9716
     collection_order: release.asc  # TODO: try release-by-artist
 
   Time Travel:
-    template: {name: Collection}
+    template:
+      name: Collection
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Time%20Travel.jpg
     tmdb_keyword: 4379
