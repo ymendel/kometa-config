@@ -3,6 +3,13 @@ external_templates:
 
 collections:
 
+  Chart Collections:
+    template:
+      - name: Chart
+        level: "+++++"
+      - name: separator
+        separator: chart
+
   Recently Aired:
     template:
       name: Chart
@@ -28,9 +35,9 @@ collections:
     imdb_chart: top_shows
 
   TMDb Popular:
-  template:
-    name: Chart
-    poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/TMDb%20Popular.jpg
+    template:
+      name: Chart
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/TMDb%20Popular.jpg
     collection_order: custom
     tmdb_popular: 100
 

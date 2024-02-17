@@ -3,6 +3,13 @@ external_templates:
 
 collections:
 
+  Genre Collections:
+    template:
+      - name: Genre
+        level: "+++++"
+      - name: separator
+        separator: genre
+
   Anthology:
     template:
       name: Genre

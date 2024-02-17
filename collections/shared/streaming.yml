@@ -1,6 +1,15 @@
 external_templates:
   - folder: config/templates
 
+collections:
+
+  Streaming Collections:
+    template:
+      - name: Streaming
+        level: "+++++"
+      - name: separator
+        separator: streaming
+
 dynamic_collections:
 
   Streaming:

@@ -3,6 +3,13 @@ external_templates:
 
 collections:
 
+  Award Collections:
+    template:
+      - name: Award
+        level: "+++++"
+      - name: separator
+        separator: award
+
   BAFTA Best in Category Winners:
     template:
       name: Award

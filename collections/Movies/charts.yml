@@ -3,6 +3,13 @@ external_templates:
 
 collections:
 
+  Chart Collections:
+    template:
+      - name: Chart
+        level: "+++++"
+      - name: separator
+        separator: chart
+
   Newly Released:
     template:
       name: Chart

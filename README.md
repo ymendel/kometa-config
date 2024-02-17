@@ -21,7 +21,6 @@ TODOs:
   - TV:
     - still want these?
       - network
-- figure out separators
 - spooderman playlist
 - remove default recommendations in libraries (all this is from the libraries manage in Plex)
   - Movies:

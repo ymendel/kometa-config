@@ -5,6 +5,21 @@ external_templates:
 
 collections:
 
+  # Note: need to do schedule and visible separately, because I can't operate
+  # on the ranges and say "schedule for one day longer than the visibility"
+
+  Seasonal Collections:
+    template:
+      - name: Holiday
+        level: "+++++"
+        # NOTE: remember to add to schedule here whenever a new
+        # *visibile* range is added to a collection
+        schedule:
+          - range(10/25-11/11)
+          - range(11/01-11/30)
+      - name: separator
+        separator: seasonal
+
   Election Day:
     template:
       name: Holiday

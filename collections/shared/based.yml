@@ -1,6 +1,15 @@
 external_templates:
   - folder: config/templates
 
+collections:
+
+  "Based on... Collections":
+    template:
+      - name: General
+        sort_title_name: "++Based"
+      - name: separator
+        separator: based
+
 dynamic_collections:
 
   Based:
