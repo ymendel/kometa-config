@@ -1,0 +1,11 @@
+external_templates:
+  - folder: config/templates
+
+playlists:
+
+  # just a fun lil' Thanksgiving tradition
+  Jeffrey Spooderman:
+    template:
+      name: playlist
+    summary: "All Spider-Man movies, from Tobey Maguire to the present."
+    trakt_list: https://trakt.tv/users/ymendel/lists/spooderman

@@ -40,5 +40,5 @@ collections:
     summary: "Gobble gobble!"
     builder_level: episode
     trakt_list:
-      # TODO: add my own list for West Wing episodes
       - https://trakt.tv/users/rrrossettiii/lists/thanksgiving-episodes
+      - https://trakt.tv/users/ymendel/lists/thanksgiving-episodes

@@ -67,6 +67,8 @@ collections:
     trakt_list:
       - https://trakt.tv/users/hoochzilla/lists/black-cinema
       - https://trakt.tv/users/bluephi8/lists/black-history
+    mdblist_list:
+      - https://mdblist.com/lists/plexmetamanager/black-history-month
 
   "St. Patrick's Day":
     template:

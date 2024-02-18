@@ -27,6 +27,7 @@ libraries:
     - pmm: ribbon
     - pmm: status
 playlist_files:
+- folder: config/playlists
 - pmm: playlist
   template_variables:
     libraries: Movies, TV Shows  # list of libraries that you want the PMM Defaults playlists to look at
