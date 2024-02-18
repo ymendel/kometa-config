@@ -5,6 +5,13 @@ external_templates:
 
 collections:
 
+  Collections:
+    template:
+      - name: Collection
+        level: "+++++"
+      - name: separator
+    file_poster: config/assets/images/separators/collections.jpg
+
   East European Depression:
     template:
       name: Collection

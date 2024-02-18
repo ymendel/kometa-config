@@ -141,7 +141,7 @@ templates:
     visible_shared: false
     url_poster: <<poster_url>>
 
-  # what a name. figure this out
+  # y'know, just "collections"
   Collection:
     default:
       emoji: ""
