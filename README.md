@@ -48,7 +48,6 @@ TODOs:
     - library playlists
     - unplayed
     - recently played
-- more collections, once the current stuff is taken care of
 
 ## Consideration / Concepts
 

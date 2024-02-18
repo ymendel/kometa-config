@@ -1,0 +1,18 @@
+external_templates:
+  - folder: config/templates
+
+collections:
+
+  Chart Collections:
+    template:
+      - name: Chart
+        level: "+++++"
+      - name: separator
+        separator: chart
+
+  RottenTomatoes Certified Fresh:
+    template:
+      name: Chart
+      emoji: "🍅"
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/RT%20Certified%20Fresh.jpg
+    mdblist_list: https://mdblist.com/lists/linaspurinis/certified-fresh

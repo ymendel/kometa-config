@@ -12,6 +12,16 @@ collections:
       - name: separator
     file_poster: config/assets/images/separators/collections.jpg
 
+  The Criterion Collection:
+    template:
+      name: Collection
+      emoji: "📽️"
+      sort_title_name: "Criterion Collection"
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Criterion%20Collection.jpg
+    trakt_list_details:
+      - https://trakt.tv/users/maxwelldeux/lists/the-criterion-collection
+    collection_order: critic_rating.desc
+
   East European Depression:
     template:
       name: Collection
@@ -20,7 +30,7 @@ collections:
     collection_order: custom
 
   Filmic Lies:
-    template: 
+    template:
       name: Collection
     letterboxd_list: https://letterboxd.com/darrencb/list/filmic-lies-fictional-stories-about-real/
     summary: "Fictional stories about real people. Historical films about real people or notable real events, but tell fictitious stories."
@@ -40,6 +50,15 @@ collections:
     summary: "Pessimistic worldviews. For when you want to wallow in despair. It doesn't matter if we all die."
     collection_order: custom
     visible_library: true
+
+  How Did This Get Made?:
+    template:
+      name: Collection
+      emoji: "🤨"
+    summary: "The films of the podcast 'How Did This Get Made?'"
+    trakt_list:
+      - https://trakt.tv/users/lish408/lists/how-did-this-get-made-podcast
+    collection_order: custom
 
   Jimmy Carter at the White House:
     template:

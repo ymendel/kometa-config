@@ -3,6 +3,12 @@ external_templates:
 
 collections:
 
+  Game Show:
+    template:
+      name: Genre
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Game%20Show.jpg
+    tmdb_keyword: 4325
+
   Mystery Box:
     template:
       name: Genre

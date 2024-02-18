@@ -3,16 +3,10 @@ external_templates:
 
 collections:
 
-  Chart Collections:
-    template:
-      - name: Chart
-        level: "+++++"
-      - name: separator
-        separator: chart
-
   Recently Aired:
     template:
       name: Chart
+      level: "+++"
       poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/Recently%20Aired.jpg
     smart_filter:
       sort_by: release.desc
@@ -33,6 +27,8 @@ collections:
       poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/IMDb%20Top%20250.jpg
     collection_order: custom
     imdb_chart: top_shows
+
+  # TODO: 100% on rottentomatoes (full series, seasons)
 
   TMDb Popular:
     template:

@@ -1,0 +1,12 @@
+external_templates:
+  - folder: config/templates
+
+collections:
+
+  Mindfuck Movies:
+    template:
+      name: Genre
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Mind-Fuck.jpg
+    trakt_list_details:
+      - https://trakt.tv/users/benfranklin/lists/best-mindfucks
+      - https://trakt.tv/users/hdlists/lists/mindfuck-movies
