@@ -17,6 +17,7 @@ collections:
         schedule:
           - range(10/25-11/11)
           - range(11/01-11/30)
+          - range(12/01-12/31)
       - name: separator
         separator: seasonal
 
@@ -42,3 +43,14 @@ collections:
     trakt_list:
       - https://trakt.tv/users/rrrossettiii/lists/thanksgiving-episodes
       - https://trakt.tv/users/ymendel/lists/thanksgiving-episodes
+
+  Christmas:
+    template:
+      name: Holiday
+      emoji: "🎅"
+      schedule: range(12/01-01/01)
+      visible: range(12/01-12/31)
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/christmas.jpg
+    trakt_list:
+      - https://trakt.tv/users/philrivers/lists/christmas-episodes
+      - https://trakt.tv/users/ymendel/lists/christmas-episodes

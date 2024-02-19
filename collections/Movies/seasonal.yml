@@ -267,6 +267,7 @@ collections:
       schedule: range(12/01-01/01)
       visible: range(12/01-12/31)
       poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/christmas.jpg
+    # TODO: consider this summary. one of the lists has Gremlins and Die Hard, which I agree with but wouldn't call "Christmas classics"
     summary: "Cozy up with some Christmas classics."
     imdb_list:
       - https://www.imdb.com/list/ls000096828/
