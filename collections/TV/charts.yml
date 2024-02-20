@@ -28,8 +28,6 @@ collections:
     collection_order: custom
     imdb_chart: top_shows
 
-  # TODO: 100% on rottentomatoes (full series, seasons)
-
   TMDb Popular:
     template:
       name: Chart

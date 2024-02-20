@@ -34,15 +34,6 @@ collections:
     collection_order: custom
     imdb_chart: lowest_rated
 
-  The 100 Club:
-    template:
-      name: Chart
-      emoji: "💯"
-      sort_title_name: "RottenTomatoes 100 Club"
-    summary: "Movies with a perfect score on RottenTomatoes.com"
-    mdblist_list: https://mdblist.com/lists/hdlists/100-on-rottentomatoes-com
-    collection_order: random
-
   TMDb Popular:
     template:
       name: Chart

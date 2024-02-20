@@ -16,3 +16,12 @@ collections:
       emoji: "🍅"
       poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/RT%20Certified%20Fresh.jpg
     mdblist_list: https://mdblist.com/lists/linaspurinis/certified-fresh
+
+  The 100 Club:
+    template:
+      name: Chart
+      emoji: "💯"
+      sort_title_name: "RottenTomatoes 100 Club"
+    summary: "The vaunted perfect score on RottenTomatoes.com"
+    mdblist_list: https://mdblist.com/lists/ymendel/the-100-club
+    collection_order: random
