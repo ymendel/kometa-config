@@ -147,6 +147,9 @@ collections:
     summary: "Thanks Dad!"
     imdb_list:
       - https://www.imdb.com/list/ls020471057/
+    trakt_list:
+      - https://trakt.tv/users/sympli/lists/fathers-day-movies
+      - https://trakt.tv/users/threespoons/lists/fathers-day-movies
 
   Independence Day:
     template:
@@ -159,6 +162,8 @@ collections:
     imdb_list:
       - https://www.imdb.com/list/ls068664510/
       - https://www.imdb.com/list/ls080925875/
+    trakt_list:
+      - https://trakt.tv/users/hitsquid/lists/4th-of-july
 
   Labor Day:
     template:
@@ -259,6 +264,7 @@ collections:
       - https://trakt.tv/users/shahid1296/lists/thanksgiving
       - https://trakt.tv/users/retrogran/lists/thanksgiving-season-movies
       - https://trakt.tv/users/padawan_seneca/lists/vibe-autumn-tv-series-movies
+      - https://trakt.tv/users/hdlists/lists/thanksgiving-movies
 
   Christmas:
     template:
@@ -275,6 +281,7 @@ collections:
       - https://trakt.tv/users/movistapp/lists/christmas-movies
       - https://trakt.tv/users/questdvd/lists/absolute-hayes-christmas-classics
       - https://trakt.tv/users/littlestella3/lists/christmas
+      - https://trakt.tv/users/hdlists/lists/christmas-movies
 
   Hallmark Christmas:
     template:
