@@ -81,6 +81,18 @@ collections:
     imdb_list:
       - https://www.imdb.com/list/ls063934595/
 
+  "Women's History Month":
+    template:
+      name: Holiday
+      emoji: "🚺"
+      schedule: range(03/01-04/01)
+      visible: range(03/01-03/31)
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/women.jpg
+    summary: "Kiss Me, I'm Irish."
+    imdb_search:
+      keyword.any: "women-in-film, women's-rights, women's-suffrage"
+      limit: 500
+
   "4/20":
     template:
       name: Holiday

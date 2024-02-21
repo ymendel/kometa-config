@@ -12,6 +12,14 @@ collections:
       - name: separator
     file_poster: config/assets/images/separators/collections.jpg
 
+  The Best Movie You Never Saw:
+    template:
+      name: Collection
+      sort_title_name: "Best Movie You Never Saw"
+    trakt_list:
+      - https://trakt.tv/users/giladg/lists/the-best-movie-you-never-saw
+    collection_order: random
+
   The Criterion Collection:
     template:
       name: Collection
