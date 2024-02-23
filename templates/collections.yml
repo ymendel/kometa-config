@@ -16,7 +16,6 @@ templates:
     optional:
       - poster_url
     sync_mode: sync
-    schedule: daily
     visible_home: true
     visible_library: true
     visible_shared: false
@@ -79,6 +78,7 @@ templates:
       - poster_url
     sync_mode: sync
     collection_order: random
+    delete_not_scheduled: true
     schedule: <<schedule>>
     visible_home: <<visible>>
     visible_library: <<visible>>
@@ -96,7 +96,6 @@ templates:
     optional:
       - poster_url
     sync_mode: sync
-    schedule: daily
     visible_home: false
     visible_library: true
     visible_shared: false
@@ -133,9 +132,6 @@ templates:
         actor: tmdb
     tmdb_person: <<tmdb_id>>
     sync_mode: append  # append again? why not sync?
-    schedule:
-      - weekly(wednesday)
-      - weekly(sunday)
     visible_home: false
     visible_library: false
     visible_shared: false
@@ -153,7 +149,6 @@ templates:
     optional:
       - poster_url
     sync_mode: sync
-    schedule: daily
     visible_home: false
     visible_library: false
     visible_shared: false
@@ -170,9 +165,6 @@ templates:
     optional:
       - poster_url
     sync_mode: sync
-    schedule:
-      - weekly(wednesday)
-      - weekly(sunday)
     visible_home: false
     visible_library: false
     visible_shared: false
@@ -189,7 +181,6 @@ templates:
     optional:
       - poster_url
     sync_mode: sync
-    schedule: daily
     visible_home: false
     visible_library: false
     visible_shared: false
@@ -206,9 +197,6 @@ templates:
     optional:
       - poster_url
     sync_mode: sync
-    schedule:
-      - weekly(wednesday)
-      - weekly(sunday)
     visible_home: false
     visible_library: false
     visible_shared: false
@@ -355,9 +343,6 @@ templates:
     optional:
       - poster_url
     sync_mode: sync
-    schedule:
-      - weekly(wednesday)
-      - weekly(sunday)
     visible_home: false
     visible_library: false
     visible_shared: false

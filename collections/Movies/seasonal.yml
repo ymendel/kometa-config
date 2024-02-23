@@ -18,7 +18,9 @@ collections:
         schedule:
           - range(12/26-01/04)
           - range(02/01-02/20)
+          - range(02/01-02/29)
           - range(03/01-03/18)
+          - range(03/01-03/31)
           - range(04/15-04/22)
           - range(03/20-04/30)
           - range(05/01-05/31)

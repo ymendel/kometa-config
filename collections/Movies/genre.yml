@@ -3,6 +3,7 @@ external_templates:
 
 collections:
 
+  # TODO: move to shared?
   Mindfuck Movies:
     template:
       name: Genre
