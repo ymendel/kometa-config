@@ -57,7 +57,7 @@ settings:
   show_filtered: false
   show_options: false
   show_missing: false  # set to true if you want a ridiculous amount of output
-  show_missing_assets: true
+  show_missing_assets: false
   save_report: false   # this is probably why the report_path settings do nothing
   tvdb_language: eng
   ignore_ids:
