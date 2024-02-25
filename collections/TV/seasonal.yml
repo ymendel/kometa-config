@@ -16,6 +16,7 @@ collections:
         # *visibile* range is added to a collection
         schedule:
           - range(10/25-11/11)
+          - range(10/01-10/31)
           - range(11/01-11/30)
           - range(12/01-12/31)
       - name: separator
@@ -30,6 +31,20 @@ collections:
     summary: "I like the noise of democracy."
     trakt_list:
       - https://trakt.tv/users/majeed_pk/lists/political-tv-series
+
+  Halloween:
+    template:
+      name: Holiday
+      emoji: "🎃"
+      schedule: range(10/01-11/01)
+      visible: range(10/01-10/31)
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/halloween.jpg
+    summary: "Boo!"
+    trakt_list:
+        - https://trakt.tv/users/roswellgeek/lists/halloween
+        - https://trakt.tv/users/ashleyangel/lists/halloween-episodes
+        - https://trakt.tv/users/goape/lists/tv-halloween-episodes
+        - https://trakt.tv/users/efreakiel/lists/halloween-tv-episodes
 
   Thanksgiving:
     template:
@@ -51,6 +66,7 @@ collections:
       schedule: range(12/01-01/01)
       visible: range(12/01-12/31)
       poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/christmas.jpg
+    summary: "Deck the halls"
     trakt_list:
       - https://trakt.tv/users/philrivers/lists/christmas-episodes
       - https://trakt.tv/users/ymendel/lists/christmas-episodes
