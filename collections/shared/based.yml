@@ -5,10 +5,10 @@ collections:
 
   "Based on... Collections":
     template:
-      - name: General
-        sort_title_name: "++Based"
       - name: separator
         separator: based
+      - name: General
+        sort_title_name: "++Based"
 
 dynamic_collections:
 

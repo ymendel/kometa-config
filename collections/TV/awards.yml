@@ -5,10 +5,10 @@ collections:
 
   Award Collections:
     template:
-      - name: Award
-        level: "+++++"
       - name: separator
         separator: award
+      - name: Award
+        level: "+++++"
 
   BAFTA Best in Category Winners:
     template:

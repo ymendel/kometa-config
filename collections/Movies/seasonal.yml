@@ -11,6 +11,8 @@ collections:
 
   Seasonal Collections:
     template:
+      - name: separator
+        separator: seasonal
       - name: Holiday
         level: "+++++"
           # NOTE: remember to add to schedule here whenever a new
@@ -32,8 +34,6 @@ collections:
           - range(10/25-11/11)
           - range(11/01-11/30)
           - range(12/01-12/31)
-      - name: separator
-        separator: seasonal
 
   "New Year's Day":
     template:

@@ -5,10 +5,10 @@ collections:
 
   Chart Collections:
     template:
-      - name: Chart
-        level: "+++++"
       - name: separator
         separator: chart
+      - name: Chart
+        level: "+++++"
 
   RottenTomatoes Certified Fresh:
     template:

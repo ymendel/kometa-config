@@ -5,10 +5,10 @@ collections:
 
   Genre Collections:
     template:
-      - name: Genre
-        level: "+++++"
       - name: separator
         separator: genre
+      - name: Genre
+        level: "+++++"
 
   Anthology:
     template:

@@ -5,10 +5,10 @@ collections:
 
   Streaming Collections:
     template:
-      - name: Streaming
-        level: "+++++"
       - name: separator
         separator: streaming
+      - name: Streaming
+        level: "+++++"
 
 dynamic_collections:
 
