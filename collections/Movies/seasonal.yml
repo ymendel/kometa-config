@@ -62,7 +62,7 @@ collections:
   Black History Month:
     template:
       name: Holiday
-      emoji: "✊ 🏿"
+      emoji: "✊🏿"
       schedule: range(02/01-03/01)
       visible: range(02/01-02/29)
       poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/black_history2.jpg
