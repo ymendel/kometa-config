@@ -24,3 +24,6 @@ templates:
     imdb_id: <<placeholder_imdb_id>>
     blank_collection: <<use_blank>>
     url_poster: <<poster_url>>
+    visible_home: false
+    visible_library: false
+    visible_shared: false
