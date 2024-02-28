@@ -45,6 +45,9 @@ collections:
         - https://trakt.tv/users/ashleyangel/lists/halloween-episodes
         - https://trakt.tv/users/goape/lists/tv-halloween-episodes
         - https://trakt.tv/users/efreakiel/lists/halloween-tv-episodes
+        - https://trakt.tv/users/ymendel/lists/halloween-episodes
+        - https://trakt.tv/users/nilretep/lists/halloween-tv-episodes
+        - https://trakt.tv/users/philrivers/lists/halloween-tv-episodes
 
   Thanksgiving:
     template:
