@@ -10,7 +10,6 @@ libraries:
     - folder: config/collections/Movies
     - folder: config/collections/shared
     overlay_files:
-    - remove_overlays: false     # Set this to true to remove all overlays
     - pmm: ribbon
   TV Shows:
     report_path: config/missing/TV_missing.yml  # NOTE: this seems to do nothing at the moment
@@ -23,7 +22,6 @@ libraries:
     - folder: config/collections/TV
     - folder: config/collections/shared
     overlay_files:
-    - remove_overlays: false     # Set this to true to remove all overlays
     - pmm: ribbon
     - pmm: status
 playlist_files:
