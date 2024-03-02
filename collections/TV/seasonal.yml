@@ -28,6 +28,7 @@ collections:
       emoji: "🗳️"
       schedule: range(10/25-11/12)
       visible: range(10/25-11/11)
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Politics.jpg
     summary: "I like the noise of democracy."
     trakt_list:
       - https://trakt.tv/users/majeed_pk/lists/political-tv-series
@@ -40,6 +41,7 @@ collections:
       visible: range(10/01-10/31)
       poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/halloween.jpg
     summary: "Boo!"
+    builder_level: episode
     trakt_list:
         - https://trakt.tv/users/roswellgeek/lists/halloween
         - https://trakt.tv/users/ashleyangel/lists/halloween-episodes
@@ -70,6 +72,7 @@ collections:
       visible: range(12/01-12/31)
       poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/christmas.jpg
     summary: "Deck the halls!"
+    builder_level: episode
     trakt_list:
       - https://trakt.tv/users/philrivers/lists/christmas-episodes
       - https://trakt.tv/users/ymendel/lists/christmas-episodes

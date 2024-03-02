@@ -11,3 +11,9 @@ collections:
     trakt_list_details:
       - https://trakt.tv/users/benfranklin/lists/best-mindfucks
       - https://trakt.tv/users/hdlists/lists/mindfuck-movies
+
+  Screwball Comedy:
+    template:
+      name: Genre
+      # TODO: poster
+    tmdb_keyword: 155457

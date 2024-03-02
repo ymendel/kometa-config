@@ -225,6 +225,7 @@ collections:
       emoji: "👻"
       schedule: range(10/01-11/01)
       visible: range(10/01-10/31)
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Horror.jpg
     summary: "Don't be scared, it's just a movie."
     trakt_list:
       - https://trakt.tv/users/lish408/lists/31-days-of-horror-2023  # TODO: Change annually — or get current year somehow?
@@ -235,6 +236,7 @@ collections:
       emoji: "🍬"
       schedule: range(10/01-11/01)
       visible: range(10/01-10/31)
+      # TODO: poster
     summary: "Trick or Treat!"
     trakt_list:
       - https://trakt.tv/users/hdlists/lists/halloween-movies-for-kids
@@ -245,6 +247,7 @@ collections:
       emoji: "🔪"
       schedule: range(10/01-11/01)
       visible: range(10/01-10/31)
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Slasher.jpg
     summary: "He's right behind you!"
     trakt_list:
       - https://trakt.tv/users/hdlists/lists/80s-slasher-movies
@@ -255,6 +258,7 @@ collections:
       emoji: "🗳️"
       schedule: range(10/25-11/12)
       visible: range(10/25-11/11)
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Politics.jpg
     summary: "I like the noise of democracy."
     trakt_list:
       - https://trakt.tv/users/majeed_pk/lists/best-political-movies
@@ -299,6 +303,7 @@ collections:
       emoji: "🎁"
       schedule: range(12/01-01/01)
       visible: range(12/01-12/31)
+      # TODO: poster
     summary: "Christmas movies with extra sap!"
     trakt_list:
       - https://trakt.tv/users/mzdiobolik/lists/hallmark-christmas-movies

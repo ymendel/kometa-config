@@ -16,6 +16,7 @@ collections:
     template:
       name: Collection
       sort_title_name: "Best Movie You Never Saw"
+      # TODO: poster
     trakt_list:
       - https://trakt.tv/users/giladg/lists/the-best-movie-you-never-saw
     collection_order: random
@@ -33,6 +34,7 @@ collections:
   East European Depression:
     template:
       name: Collection
+      # TODO: poster
     letterboxd_list: https://letterboxd.com/darrencb/list/east-european-depression/
     summary: "A notable subset of Hopeless Cinema."
     collection_order: custom
@@ -40,6 +42,7 @@ collections:
   Filmic Lies:
     template:
       name: Collection
+      # TODO: poster
     letterboxd_list: https://letterboxd.com/darrencb/list/filmic-lies-fictional-stories-about-real/
     summary: "Fictional stories about real people. Historical films about real people or notable real events, but tell fictitious stories."
     collection_order: custom
@@ -47,6 +50,7 @@ collections:
   Films With a Good Heart:
     template:
       name: Collection
+      # TODO: poster
     letterboxd_list: https://letterboxd.com/darrencb/list/films-with-a-good-heart/
     summary: "Films that promote caring and understanding. Films with good intentions."
     collection_order: custom
@@ -54,6 +58,7 @@ collections:
   Hopeless Cinema:
     template:
       name: Collection
+      # TODO: poster
     letterboxd_list: https://letterboxd.com/darrencb/list/the-world-is-hell-hopeless-cinema/
     summary: "Pessimistic worldviews. For when you want to wallow in despair. It doesn't matter if we all die."
     collection_order: custom
@@ -63,6 +68,7 @@ collections:
     template:
       name: Collection
       emoji: "🤨"
+      # TODO: poster
     summary: "The films of the podcast 'How Did This Get Made?'"
     trakt_list:
       - https://trakt.tv/users/lish408/lists/how-did-this-get-made-podcast
@@ -71,6 +77,7 @@ collections:
   Jimmy Carter at the White House:
     template:
       name: Collection
+      # TODO: poster
     letterboxd_list: https://letterboxd.com/jackcuellar/list/every-single-movie-that-jimmy-carter-watched/
     summary: "Movies that Jimmy Carter watched at the White House."
     collection_order: custom
@@ -78,6 +85,7 @@ collections:
   Love Hurts:
     template:
       name: Collection
+      # TODO: poster
     letterboxd_list: https://letterboxd.com/darrencb/list/love-hurts/
     summary: "Films of love and pain. That love can be romantic or familial."
     collection_order: custom
@@ -85,6 +93,7 @@ collections:
   Sculpting in Time:
     template:
       name: Collection
+      # TODO: poster
     letterboxd_list: https://letterboxd.com/darrencb/list/sculpting-in-time-cinema-without-linearity/
     summary: "Cinema without linearity. Films where time and order are immaterial, told with grace."
     collection_order: custom
@@ -92,6 +101,7 @@ collections:
   Unconventional Biopics:
     template:
       name: Collection
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Biopic.jpg
     letterboxd_list: https://letterboxd.com/darrencb/list/unconventional-biopics/
     summary: "Films about real life people that aren't just dramatised Wikipedia pages (for better or for worse)."
     collection_order: custom
