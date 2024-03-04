@@ -16,7 +16,7 @@ collections:
     template:
       name: Collection
       sort_title_name: "Best Movie You Never Saw"
-      # TODO: poster
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Unexpectedly%20Amazing.jpg
     trakt_list:
       - https://trakt.tv/users/giladg/lists/the-best-movie-you-never-saw
     collection_order: random
@@ -42,7 +42,7 @@ collections:
   Filmic Lies:
     template:
       name: Collection
-      # TODO: poster
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Historical%20Fiction.jpg
     letterboxd_list: https://letterboxd.com/darrencb/list/filmic-lies-fictional-stories-about-real/
     summary: "Fictional stories about real people. Historical films about real people or notable real events, but tell fictitious stories."
     collection_order: custom
@@ -68,7 +68,7 @@ collections:
     template:
       name: Collection
       emoji: "🤨"
-      # TODO: poster
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Mystery.jpg
     summary: "The films of the podcast 'How Did This Get Made?'"
     trakt_list:
       - https://trakt.tv/users/lish408/lists/how-did-this-get-made-podcast
@@ -85,7 +85,7 @@ collections:
   Love Hurts:
     template:
       name: Collection
-      # TODO: poster
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Heartbreak.jpg
     letterboxd_list: https://letterboxd.com/darrencb/list/love-hurts/
     summary: "Films of love and pain. That love can be romantic or familial."
     collection_order: custom
@@ -93,7 +93,7 @@ collections:
   Sculpting in Time:
     template:
       name: Collection
-      # TODO: poster
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Surreal.jpg
     letterboxd_list: https://letterboxd.com/darrencb/list/sculpting-in-time-cinema-without-linearity/
     summary: "Cinema without linearity. Films where time and order are immaterial, told with grace."
     collection_order: custom

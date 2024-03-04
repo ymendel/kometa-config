@@ -22,7 +22,7 @@ collections:
       name: Chart
       emoji: "💯"
       sort_title_name: "RottenTomatoes 100 Club"
-      # TODO: poster
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/RT%20Rated%20100.jpg
     summary: "The vaunted perfect score on RottenTomatoes.com"
     mdblist_list: https://mdblist.com/lists/ymendel/the-100-club
     collection_order: random

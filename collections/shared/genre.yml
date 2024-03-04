@@ -45,7 +45,7 @@ collections:
   Time Loop:
     template:
       name: Genre
-      # TODO: get poster — somehow there isn't one in the images
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Time%20Loop.jpg
     tmdb_keyword: 10854
 
   Time Travel:
