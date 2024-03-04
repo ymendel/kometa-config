@@ -40,6 +40,8 @@ collections:
       name: Genre
       poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Stand-Up%20Comedy.jpg
     tmdb_keyword: 9716
+    imdb_search:
+      keyword.any: "stand-up-comedy"
     collection_order: release.asc  # TODO: try release-by-artist
 
   Time Loop:
