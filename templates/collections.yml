@@ -1,217 +1,146 @@
-# taken from nwithan8
-#
-# external_templates:
-#   git: PMM/collections
-
 templates:
 
-  New:
-    default:
-      emoji: ""
+  # this is _only_ to hold these anchors for later alias use
+  anchor_holder:
+    default: &defaults
       level: ""
       sort_title_name: <<mapping_name>>
-    name: <<emoji>> <<mapping_name>>
-    sort_title: 010_+<<level>>_<<sort_title_name>>
-    collection_mode: hide
+      visible: false
+    conditionals: &conditionals
+      name_prefix:
+        default: ""
+        conditions:
+          - emoji.exists: true
+            value: "<<emoji>> "
+
+  # this likewise is done to use as an alias later
+  # it's separate from the above anchors for ease of extending
+  common: &common
+    name: <<name_prefix>><<mapping_name>>
+    sort_title: <<section>>_+<<level>>_<<sort_title_name>>
+    collection_mode: <<collection_mode>>
     optional:
       - poster_url
     sync_mode: sync
-    visible_home: true
-    visible_library: true
-    visible_shared: false
-    url_poster: <<poster_url>>
-
-  InMemoriamActor:
-    default:
-      emoji: ""
-      level: ""
-      sort_title_name: <<mapping_name>>
-    name: <<emoji>> <<mapping_name>>
-    sort_title: 020_+<<level>>_<<sort_title_name>>
-    collection_mode: hide
-    optional:
-      - poster_url
-    smart_filter:
-      sort_by: release.desc  # revisit, maybe asc
-      any:
-        actor: tmdb
-    tmdb_person: <<tmdb_id>>
-    sync_mode: append  # append? not sync?
-    visible_home: true
-    visible_library: true
-    visible_shared: true
-    url_poster: <<poster_url>>
-
-  InMemoriamDirector:
-    default:
-      emoji: ""
-      level: ""
-      sort_title_name: <<mapping_name>>
-    name: <<emoji>> <<mapping_name>>
-    sort_title: 021_+<<level>>_<<sort_title_name>>
-    collection_mode: hide
-    optional:
-      - poster_url
-    smart_filter:
-      sort_by: release.desc  # revisit, maybe asc
-      any:
-        director: tmdb
-    tmdb_person: <<tmdb_id>>
-    sync_mode: append  # append? not sync?
-    visible_home: true
-    visible_library: true
-    visible_shared: true
-    url_poster: <<poster_url>>
-
-  Holiday:
-    default:
-      emoji: ""
-      level: ""
-      sort_title_name: <<mapping_name>>
-      # unfortunately can't operate on these ranges, so need to have them separate
-      schedule: never
-      visible: never
-    name: <<emoji>> <<mapping_name>>
-    sort_title: 030_+<<level>>_<<sort_title_name>>
-    collection_mode: hide
-    optional:
-      - poster_url
-    sync_mode: sync
-    collection_order: random
-    delete_not_scheduled: true
-    schedule: <<schedule>>
+    schedule: daily
     visible_home: <<visible>>
     visible_library: <<visible>>
     visible_shared: <<visible>>
     url_poster: <<poster_url>>
 
+  New:
+    default:
+      <<: *defaults
+      section: "010"
+    conditionals: *conditionals
+    <<: *common
+    visible_home: true
+    visible_library: true
+
+  InMemoriamActor:
+    default:
+      <<: *defaults
+      section: "020"
+      visible: true
+    conditionals: *conditionals
+    <<: *common
+    smart_filter:
+      sort_by: release.desc
+      any:
+        actor: tmdb
+    tmdb_person: <<tmdb_id>>
+    sync_mode: append
+
+  InMemoriamDirector:
+    default:
+      <<: *defaults
+      section: "021"
+      visible: true
+    conditionals: *conditionals
+    <<: *common
+    smart_filter:
+      sort_by: release.desc
+      any:
+        director: tmdb
+    tmdb_person: <<tmdb_id>>
+    sync_mode: append
+
+  Holiday:
+    default:
+      <<: *defaults
+      section: "030"
+      # unfortunately can't operate on these ranges, so need to have them separate
+      schedule: never
+      visible: never
+    conditionals: *conditionals
+    <<: *common
+    delete_not_scheduled: true
+    schedule: <<schedule>>
+    collection_order: random
+
   Chart:
     default:
-      emoji: ""
-      level: ""
-      sort_title_name: <<mapping_name>>
-    name: <<emoji>> <<mapping_name>>
-    sort_title: 040_+<<level>>_<<sort_title_name>>
-    collection_mode: hide
-    optional:
-      - poster_url
-    sync_mode: sync
-    visible_home: false
+      <<: *defaults
+      section: "040"
+    conditionals: *conditionals
+    <<: *common
     visible_library: true
-    visible_shared: false
-    url_poster: <<poster_url>>
 
   Award:
     default:
-      emoji: ""
-      level: ""
-      sort_title_name: <<mapping_name>>
-    name: <<emoji>> <<mapping_name>>
-    sort_title: 050_+<<level>>_<<sort_title_name>>
-    collection_mode: hide
-    optional:
-      - poster_url
-    sync_mode: sync
-    visible_home: false
-    visible_library: false
-    visible_shared: false
-    url_poster: <<poster_url>>
+      <<: *defaults
+      section: "050"
+    conditionals: *conditionals
+    <<: *common
+    visible_library: true
 
   ActorAward:
     default:
-      emoji: ""
-      level: ""
-      sort_title_name: <<mapping_name>>
-    name: <<emoji>> <<mapping_name>>
-    sort_title: 051_+<<level>>_<<sort_title_name>>
-    collection_mode: hide
-    optional:
-      - poster_url
+      <<: *defaults
+      section: "051"
+    conditionals: *conditionals
+    <<: *common
     smart_filter:
       all:
         actor: tmdb
     tmdb_person: <<tmdb_id>>
-    sync_mode: append  # append again? why not sync?
-    visible_home: false
-    visible_library: false
-    visible_shared: false
-    url_poster: <<poster_url>>
+    sync_mode: append
 
   # y'know, just "collections"
   Collection:
     default:
-      emoji: ""
-      level: ""
-      sort_title_name: <<mapping_name>>
-    name: <<emoji>> <<mapping_name>>
-    sort_title: 065_+<<level>>_<<sort_title_name>>
-    collection_mode: hide
-    optional:
-      - poster_url
-    sync_mode: sync
-    visible_home: false
-    visible_library: false
-    visible_shared: false
-    url_poster: <<poster_url>>
+      <<: *defaults
+      section: "065"
+    conditionals: *conditionals
+    <<: *common
 
   Franchise:
     default:
-      emoji: ""
-      level: ""
-      sort_title_name: <<mapping_name>>
-    name: <<emoji>> <<mapping_name>>
-    sort_title: 066_+<<level>>_<<sort_title_name>>
-    collection_mode: hide
-    optional:
-      - poster_url
-    sync_mode: sync
-    visible_home: false
-    visible_library: false
-    visible_shared: false
-    url_poster: <<poster_url>>
+      <<: *defaults
+      section: "066"
+    conditionals: *conditionals
+    <<: *common
 
   Genre:
     default:
-      emoji: ""
-      level: ""
-      sort_title_name: <<mapping_name>>
-    name: <<emoji>> <<mapping_name>>
-    sort_title: 070_+<<level>>_<<sort_title_name>>
-    collection_mode: hide
-    optional:
-      - poster_url
-    sync_mode: sync
-    visible_home: false
-    visible_library: false
-    visible_shared: false
-    url_poster: <<poster_url>>
+      <<: *defaults
+      section: "070"
+    conditionals: *conditionals
+    <<: *common
 
   Decade:
     default:
-      emoji: ""
-      level: ""
-      sort_title_name: <<mapping_name>>
-    name: <<emoji>> <<mapping_name>>
-    sort_title: 080_+<<level>>_<<sort_title_name>>
-    collection_mode: hide
-    optional:
-      - poster_url
-    sync_mode: sync
-    visible_home: false
-    visible_library: false
-    visible_shared: false
-    url_poster: <<poster_url>>
+      <<: *defaults
+      section: "080"
+    conditionals: *conditionals
+    <<: *common
 
   Person:
     default:
-      emoji: ""
-      level: ""
-      sort_title_name: <<mapping_name>>
-    name: <<emoji>> <<mapping_name>>
-    sort_title: 090_+<<level>>_<<sort_title_name>>
-    collection_mode: hide
-    optional:
-      - poster_url
+      <<: *defaults
+      section: "090"
+    conditionals: *conditionals
+    <<: *common
     smart_filter:
       sort_by: release.desc
       any:
@@ -221,145 +150,75 @@ templates:
         writer: tmdb
     tmdb_person: <<tmdb_id>>
     sync_mode: append
-    visible_home: false
-    visible_library: false
-    visible_shared: false
-    url_poster: <<poster_url>>
 
   Actor:
     default:
-      emoji: ""
-      level: ""
-      sort_title_name: <<mapping_name>>
-    name: <<emoji>> <<mapping_name>>
-    sort_title: 090_+<<level>>_<<sort_title_name>>
-    collection_mode: hide
-    optional:
-      - poster_url
+      <<: *defaults
+      section: "090"
+    conditionals: *conditionals
+    <<: *common
     tmdb_actor_details: <<tmdb_id>>
     sync_mode: append
-    visible_home: false
-    visible_library: false
-    visible_shared: false
-    url_poster: <<poster_url>>
 
   Director:
     default:
-      emoji: ""
-      level: ""
-      sort_title_name: <<mapping_name>>
-    name: <<emoji>> <<mapping_name>>
-    sort_title: 091_+<<level>>_<<sort_title_name>>
-    collection_mode: hide
-    optional:
-      - poster_url
+      <<: *defaults
+      section: "090"
+    conditionals: *conditionals
+    <<: *common
     tmdb_director_details: <<tmdb_id>>
     sync_mode: append
-    visible_home: false
-    visible_library: false
-    visible_shared: false
-    url_poster: <<poster_url>>
 
   Producer:
     default:
-      emoji: ""
-      level: ""
-      sort_title_name: <<mapping_name>>
-    name: <<emoji>> <<mapping_name>>
-    sort_title: 092_+<<level>>_<<sort_title_name>>
-    collection_mode: hide
-    optional:
-      - poster_url
+      <<: *defaults
+      section: "090"
+    conditionals: *conditionals
+    <<: *common
     tmdb_producer_details: <<tmdb_id>>
     sync_mode: append
-    visible_home: false
-    visible_library: false
-    visible_shared: false
-    url_poster: <<poster_url>>
 
   Studio:
     default:
-      emoji: ""
-      level: ""
-      sort_title_name: <<mapping_name>>
-    name: <<emoji>> <<mapping_name>>
-    sort_title: 100_+<<level>>_<<sort_title_name>>
-    collection_mode: hide
-    optional:
-      - poster_url
+      <<: *defaults
+      section: "100"
+    conditionals: *conditionals
+    <<: *common
     smart_filter:
       sort_by: release.desc
       validate: false
       any:
         studio: <<studio>>
-    visible_home: false
-    visible_library: false
-    visible_shared: false
-    url_poster: <<poster_url>>
 
   Network:
     default:
-      emoji: ""
-      level: ""
-      sort_title_name: <<mapping_name>>
-    name: <<emoji>> <<mapping_name>>
-    sort_title: 100_+<<level>>_<<sort_title_name>>
-    collection_mode: hide
-    optional:
-      - poster_url
+      <<: *defaults
+      section: "100"
+    conditionals: *conditionals
+    <<: *common
     smart_filter:
-      sort_by: title.desc
+      sort_by: release.desc
       validate: false
       any:
         network: <<network>>
-    visible_home: false
-    visible_library: false
-    visible_shared: false
-    url_poster: <<poster_url>>
 
   Streaming:
     default:
-      emoji: ""
-      level: ""
-      sort_title_name: <<mapping_name>>
-    name: <<emoji>> <<mapping_name>>
-    sort_title: 100_+<<level>>_<<sort_title_name>>
-    collection_mode: hide
-    optional:
-      - poster_url
-    visible_home: false
-    visible_library: false
-    visible_shared: false
-    url_poster: <<poster_url>>
+      <<: *defaults
+      section: "100"
+    conditionals: *conditionals
+    <<: *common
 
   Country:
     default:
-      emoji: ""
-      level: ""
-      sort_title_name: <<mapping_name>>
-    name: <<emoji>> <<mapping_name>>
-    sort_title: 110_+<<level>>_<<sort_title_name>>
-    collection_mode: hide
-    optional:
-      - poster_url
-    sync_mode: sync
-    visible_home: false
-    visible_library: false
-    visible_shared: false
-    url_poster: <<poster_url>>
+      <<: *defaults
+      section: "110"
+    conditionals: *conditionals
+    <<: *common
 
   General:
     default:
-      emoji: ""
-      level: ""
-      sort_title_name: <<mapping_name>>
-    name: <<emoji>> <<mapping_name>>
-    sort_title: 120_+<<level>>_<<sort_title_name>>
-    collection_mode: hide
-    optional:
-      - poster_url
-    sync_mode: sync
-    visible_home: false
-    visible_library: false
-    visible_shared: false
-    url_poster: <<poster_url>>
+      <<: *defaults
+      section: "120"
+    conditionals: *conditionals
+    <<: *common

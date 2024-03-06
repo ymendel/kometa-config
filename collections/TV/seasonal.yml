@@ -1,5 +1,3 @@
-# mostly taken from nwithan8
-
 external_templates:
   - folder: config/templates
 

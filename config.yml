@@ -2,7 +2,7 @@ libraries:
   Movies:
     report_path: config/missing/Movies_missing.yml  # NOTE: this seems to do nothing at the moment
     template_variables:
-      collection_mode: hide           # hide the collections in the "Library" tab  # NOTE: I'm not using this with the new collections/templates
+      collection_mode: hide           # hide the collections in the "Library" tab
       placeholder_imdb_id: tt0117887  # put something in the placeholder so it'll be hidden - That Thing You Do! (1996)
     metadata_files:
       - folder: config/metadata/Movies
@@ -14,7 +14,7 @@ libraries:
   TV Shows:
     report_path: config/missing/TV_missing.yml  # NOTE: this seems to do nothing at the moment
     template_variables:
-      collection_mode: hide            # hide the collections in the "Library" tab  # NOTE: I'm not using this with the new collections/templates
+      collection_mode: hide            # hide the collections in the "Library" tab
       placeholder_imdb_id: tt11834592  # put something in the placeholder so it'll be hidden - Gaslit (2022)
     metadata_files:
       - folder: config/metadata/TV
