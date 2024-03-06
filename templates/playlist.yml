@@ -4,3 +4,6 @@ templates:
     libraries: Movies, TV Shows
     sync_mode: sync
     sync_to_users: all
+    optional:
+      - poster_url
+    url_poster: <<poster_url>>

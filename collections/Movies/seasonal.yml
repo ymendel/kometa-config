@@ -87,6 +87,14 @@ collections:
       schedule: range(03/01-04/01)
       visible: range(03/01-03/31)
       poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/women.jpg
+    trakt_list:
+      - https://trakt.tv/users/pterisaur/lists/women-s-history-month
+      - https://trakt.tv/users/ymendel/lists/women-s-history-month
+    imdb_list:
+      - https://www.imdb.com/list/ls564175688/
+      - https://www.imdb.com/list/ls088714418/
+      - https://www.imdb.com/list/ls564845310/
+      - https://www.imdb.com/list/ls031922055/
     imdb_search:
       keyword.any: "women-in-film, women's-rights, women's-suffrage"
       limit: 1000
