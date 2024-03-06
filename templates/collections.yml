@@ -125,6 +125,8 @@ templates:
     default:
       <<: *defaults
       section: "070"
+      genre_poster_name: <<mapping_name>>
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/<<genre_poster_name_encoded>>.jpg
     conditionals: *conditionals
     <<: *common
 

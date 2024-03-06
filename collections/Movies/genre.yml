@@ -4,7 +4,7 @@ external_templates:
 collections:
 
   # TODO: move to shared?
-  Mindfuck Movies:
+  Mind-Fuck:
     template:
       name: Genre
       poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Mind-Fuck.jpg

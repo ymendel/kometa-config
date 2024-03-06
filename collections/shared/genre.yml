@@ -13,32 +13,27 @@ collections:
   Anthology:
     template:
       name: Genre
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Anthology.jpg
     tmdb_keyword: 9706
 
   Caper:
     template:
       name: Genre
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Caper.jpg
     tmdb_keyword: 9728
 
   Heist:
     template:
       name: Genre
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Heist.jpg
     tmdb_keyword: 10051
 
   Remake:
     template:
       name: Genre
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Remake.jpg
     tmdb_keyword: 9714
     collection_order: release.asc
 
-  Stand-up Comedy:
+  Stand-Up Comedy:
     template:
       name: Genre
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Stand-Up%20Comedy.jpg
     tmdb_keyword: 9716
     imdb_search:
       keyword.any: "stand-up-comedy"
@@ -47,11 +42,9 @@ collections:
   Time Loop:
     template:
       name: Genre
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Time%20Loop.jpg
     tmdb_keyword: 10854
 
   Time Travel:
     template:
       name: Genre
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Time%20Travel.jpg
     tmdb_keyword: 4379
