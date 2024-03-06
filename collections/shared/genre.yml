@@ -37,6 +37,7 @@ collections:
     tmdb_keyword: 9716
     imdb_search:
       keyword.any: "stand-up-comedy"
+      limit: 1000
     collection_order: release.asc  # TODO: try release-by-artist
 
   Time Loop:

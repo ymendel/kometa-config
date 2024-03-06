@@ -89,7 +89,7 @@ collections:
       poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/women.jpg
     imdb_search:
       keyword.any: "women-in-film, women's-rights, women's-suffrage"
-      limit: 500
+      limit: 1000
 
   "4/20":
     template:
