@@ -1,5 +1,8 @@
 libraries:
   Movies:
+    operations:
+      mass_poster_update:
+        source: lock                  # stop changing my posters, Plex!
     report_path: config/missing/Movies_missing.yml  # NOTE: this seems to do nothing at the moment
     template_variables:
       collection_mode: hide           # hide the collections in the "Library" tab
@@ -12,6 +15,11 @@ libraries:
     overlay_files:
     - pmm: ribbon
   TV Shows:
+    operations:
+      mass_poster_update:
+        source: lock                   # stop changing my posters, Plex!
+        seasons: false
+        episodes: false
     report_path: config/missing/TV_missing.yml  # NOTE: this seems to do nothing at the moment
     template_variables:
       collection_mode: hide            # hide the collections in the "Library" tab
