@@ -33,7 +33,12 @@ collections:
       name: Chart
       poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/TMDb%20Popular.jpg
     collection_order: custom
-    tmdb_popular: 100
+    # sure wish tmdb_popular didn't suck for TV shows
+    tmdb_discover:
+      sort_by: popularity.desc
+      watch_region: US
+      with_watch_monetization_types: free
+      limit: 100
 
   TMDb Top Rated:
     template:
