@@ -38,6 +38,12 @@ collections:
     imdb_search:
       keyword.any: "stand-up-comedy"
       limit: 1000
+    trakt_list:
+      - https://trakt.tv/users/ymendel/lists/stand-up-comedy
+    filters:
+      title.isnot:
+        - The Big Sick
+        - The Aristocrats
     collection_order: release.asc  # TODO: try release-by-artist
 
   Time Loop:
