@@ -1,6 +1,7 @@
 libraries:
   Movies:
     operations:
+      assets_for_all: true
       mass_poster_update:
         source: lock                  # stop changing my posters, Plex!
     report_path: config/missing/Movies_missing.yml  # NOTE: this seems to do nothing at the moment
@@ -16,10 +17,11 @@ libraries:
     - pmm: ribbon
   TV Shows:
     operations:
+      assets_for_all: true
       mass_poster_update:
         source: lock                   # stop changing my posters, Plex!
-        seasons: false
-        episodes: false
+        seasons: true
+        episodes: false                # this is too much
     report_path: config/missing/TV_missing.yml  # NOTE: this seems to do nothing at the moment
     template_variables:
       collection_mode: hide            # hide the collections in the "Library" tab
@@ -42,14 +44,11 @@ settings:
   cache_expiration: 60  # days
   asset_directory: config/assets
   asset_folders: true
-  asset_depth: 0
+  asset_depth: 2  # images is one, and collections or movies or franchises or whatever is two
   create_asset_folders: false
-  prioritize_assets: false
+  prioritize_assets: true
   dimensional_asset_rename: false
   download_url_assets: false
-  show_missing_season_assets: false
-  show_missing_episode_assets: false
-  show_asset_not_needed: true
   sync_mode: append
   minimum_items: 1
   default_collection_order:
@@ -64,6 +63,9 @@ settings:
   show_options: false
   show_missing: false  # set to true if you want a ridiculous amount of output
   show_missing_assets: false
+  show_missing_season_assets: false
+  show_missing_episode_assets: false
+  show_asset_not_needed: true
   save_report: false   # this is probably why the report_path settings do nothing
   tvdb_language: eng
   ignore_ids:

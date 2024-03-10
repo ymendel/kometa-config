@@ -10,7 +10,6 @@ collections:
       - name: separator
       - name: Collection
         level: "+++++"
-    file_poster: config/assets/images/separators/collections.jpg
 
   The Best Movie You Never Saw:
     template:
