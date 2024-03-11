@@ -121,8 +121,10 @@ templates:
     default:
       <<: *defaults
       section: "066"
+      poster_type: franchise
     conditionals: *conditionals
     <<: *common
+    collection_order: release.asc
 
   Genre:
     default:

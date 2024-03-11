@@ -25,6 +25,11 @@ collections:
       name: Genre
     tmdb_keyword: 10051
 
+  Mockumentary:
+    template:
+      name: Genre
+    tmdb_keyword: 11800
+
   Remake:
     template:
       name: Genre
@@ -45,6 +50,15 @@ collections:
         - The Big Sick
         - The Aristocrats
     collection_order: release.asc  # TODO: try release-by-artist
+
+  # keeping this after Stand-Up Comedy for what should be an obvious reason
+  Documentary:
+    template:
+      name: Genre
+    plex_search:
+      genre: Documentary
+    filters:
+      collection.not: "Stand-Up Comedy"
 
   Time Loop:
     template:

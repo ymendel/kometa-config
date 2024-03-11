@@ -1,0 +1,81 @@
+external_templates:
+  - folder: config/templates
+
+collections:
+
+  Franchise Collections:
+    template:
+      - name: separator
+        separator: franchise
+      - name: Franchise
+        level: "+++++"
+
+  Chronicles of Riddick:
+    template:
+      name: Franchise
+    tmdb_collection: 2794
+
+  Cornetto Trilogy:
+    template:
+      name: Franchise
+    imdb_list:
+      - https://www.imdb.com/list/ls068623110/
+
+  Deadpool:
+    template:
+      name: Franchise
+    tmdb_collection: 448150
+    tmdb_movie: 567604  # Once Upon a Deadpool
+
+  Hannibal Lecter:
+    template:
+      name: Franchise
+    imdb_list:
+      - https://www.imdb.com/list/ls033994793/
+
+  Hellboy:
+    template:
+      name: Franchise
+    imdb_list:
+      - https://www.imdb.com/list/ls042310244/
+
+  The Hustler:
+    template:
+      name: Franchise
+      sort_title: "Hustler"
+    tmdb_collection: 387219
+
+  The Karate Kid:
+    template:
+      name: Franchise
+      sort_title: "Karate Kid"
+    tmdb_collection: 8580
+
+  Kingsman:
+    template:
+      name: Franchise
+    tmdb_collection: 391860
+
+  The Man With No Name:
+    template:
+      name: Franchise
+      sort_title: "Man With No Name"
+    imdb_list:
+      - https://www.imdb.com/list/ls023916334/
+
+  "Ocean's":
+    template:
+      name: Franchise
+    imdb_list:
+      - https://www.imdb.com/list/ls068557644/
+
+  The Thin Man:
+    template:
+      name: Franchise
+      sort_title: "Thin Man"
+    tmdb_collection: 47814
+
+  World of Watches:
+    template:
+      name: Franchise
+    tmdb_collection: 3106

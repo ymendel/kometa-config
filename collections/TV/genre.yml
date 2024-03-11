@@ -11,8 +11,10 @@ collections:
   Game Show:
     template:
       name: Genre
-    # TODO: what's wrong with this keyword? check API results
     tmdb_keyword: 4325
+    filters:
+      title.isnot:
+        - Quiz
 
   Mystery Box:
     template:
