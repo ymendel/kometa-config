@@ -27,7 +27,7 @@ collections:
       emoji: "🚺"
       schedule: range(03/01-04/01)
       visible: range(03/01-03/31)
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/women.jpg
+      poster_name: women
     trakt_list:
       - https://trakt.tv/users/pterisaur/lists/women-s-history-month
       - https://trakt.tv/users/ymendel/lists/women-s-history-month
@@ -38,7 +38,8 @@ collections:
       emoji: "🗳️"
       schedule: range(10/25-11/12)
       visible: range(10/25-11/11)
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Politics.jpg
+      poster_type: genre
+      poster_name: Politics
     summary: "I like the noise of democracy."
     trakt_list:
       - https://trakt.tv/users/majeed_pk/lists/political-tv-series
@@ -49,7 +50,7 @@ collections:
       emoji: "🎃"
       schedule: range(10/01-11/01)
       visible: range(10/01-10/31)
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/halloween.jpg
+      poster_name: halloween
     summary: "Boo!"
     builder_level: episode
     trakt_list:
@@ -67,7 +68,7 @@ collections:
       emoji: "🦃"
       schedule: range(11/01-12/01)
       visible: range(11/01-11/30)
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/thanksgiving.jpg
+      poster_name: thanksgiving
     summary: "Gobble gobble!"
     builder_level: episode
     trakt_list:
@@ -80,7 +81,7 @@ collections:
       emoji: "🎅"
       schedule: range(12/01-01/01)
       visible: range(12/01-12/31)
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/christmas.jpg
+      poster_name: christmas
     summary: "Deck the halls!"
     builder_level: episode
     trakt_list:

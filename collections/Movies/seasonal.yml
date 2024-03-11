@@ -38,7 +38,7 @@ collections:
       emoji: "🎊"
       schedule: range(12/26-01/05)
       visible: range(12/26-01/04)
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/years.jpg
+      poster_name: years
     summary: "Ring in the New Year with these movies!"
     imdb_list:
       - https://www.imdb.com/list/ls066838460/
@@ -49,7 +49,7 @@ collections:
       emoji: "💘"
       schedule: range(02/01-02/21)
       visible: range(02/01-02/20)
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/valentine.jpg
+      poster_name: valentine
     summary: "Love me tender, love me sweet, never let me go."
     imdb_list:
       - https://www.imdb.com/list/ls000094398/
@@ -62,7 +62,7 @@ collections:
       emoji: "✊🏿"
       schedule: range(02/01-03/01)
       visible: range(02/01-02/29)
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/black_history2.jpg
+      poster_name: black_history2
     trakt_list:
       - https://trakt.tv/users/hoochzilla/lists/black-cinema
       - https://trakt.tv/users/bluephi8/lists/black-history
@@ -75,7 +75,7 @@ collections:
       emoji: "☘"
       schedule: range(03/01-03/19)
       visible: range(03/01-03/18)
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/patrick.jpg
+      poster_name: patrick
     summary: "Kiss Me, I'm Irish."
     imdb_list:
       - https://www.imdb.com/list/ls063934595/
@@ -86,7 +86,7 @@ collections:
       emoji: "🚺"
       schedule: range(03/01-04/01)
       visible: range(03/01-03/31)
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/women.jpg
+      poster_name: women
     trakt_list:
       - https://trakt.tv/users/pterisaur/lists/women-s-history-month
       - https://trakt.tv/users/ymendel/lists/women-s-history-month
@@ -105,7 +105,7 @@ collections:
       emoji: "🥦"
       schedule: range(04/15-04/23)
       visible: range(04/15-04/22)
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/420.jpg
+      poster_name: "420"
     summary: "Blaze it!"
     imdb_list:
       - https://www.imdb.com/list/ls075204988/
@@ -116,7 +116,7 @@ collections:
       emoji: "🐰"
       schedule: range(03/20-05/01)
       visible: range(03/20-04/30)
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/easter.jpg
+      poster_name: easter
     summary: "Hoppy Easter!"
     imdb_list:
       - https://www.imdb.com/list/ls062665509/
@@ -126,9 +126,7 @@ collections:
     template:
       name: Holiday
       emoji: "🌊🌺"
-      schedule: range(05/01-06/01)
-      visible: range(05/01-05/31)
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/aapi.jpg
+      poster_name: aapi
     mdblist_list:
       - https://mdblist.com/lists/plexmetamanager/asian-american-pacific-islander-heritage-month
 
@@ -139,7 +137,7 @@ collections:
       # range(05/05-05/11)
       schedule: never
       visible: never
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/mother.jpg
+      poster_name: mother
     summary: "Thanks Mom!"
     imdb_list:
       - https://www.imdb.com/list/ls072551197/
@@ -150,7 +148,7 @@ collections:
       emoji: "🪖"
       schedule: range(05/18-06/08)
       visible: range(05/18-06/07)
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/memorial.jpg
+      poster_name: memorial
     summary: "Remembering those who gave their lives for our freedom."
     imdb_list:
       - https://www.imdb.com/list/ls002014923/
@@ -161,7 +159,7 @@ collections:
       emoji: "👨"
       schedule: range(06/15-06/21)
       visible: range(06/15-06/20)
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/father.jpg
+      poster_name: father
     summary: "Thanks Dad!"
     imdb_list:
       - https://www.imdb.com/list/ls020471057/
@@ -175,7 +173,7 @@ collections:
       emoji: "🎆"
       schedule: range(06/23-07/11)
       visible: range(06/23-07/10)
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/independence.jpg
+      poster_name: memorial
     summary: "Celebrate the 4th of July with these movies!"
     imdb_list:
       - https://www.imdb.com/list/ls068664510/
@@ -189,7 +187,7 @@ collections:
       emoji: "⚒"
       schedule: range(09/01-09/11)
       visible: range(09/01-09/10)
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/labor.jpg
+      poster_name: labor
     summary: "Labor Day is a day off, but these movies are hard work."
     imdb_list:
       - https://www.imdb.com/list/ls002014923/
@@ -200,7 +198,7 @@ collections:
       emoji: "🎃"
       schedule: range(10/01-11/01)
       visible: range(10/01-10/31)
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/halloween.jpg
+      poster_name: halloween
     summary: "Boo!"
     imdb_list:
       - https://www.imdb.com/list/ls023118929/
@@ -230,7 +228,7 @@ collections:
       emoji: "👻"
       schedule: range(10/01-11/01)
       visible: range(10/01-10/31)
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Horror.jpg
+      poster_type: genre
     summary: "Don't be scared, it's just a movie."
     trakt_list:
       - https://trakt.tv/users/lish408/lists/31-days-of-horror-2023  # TODO: Change annually — or get current year somehow?
@@ -252,7 +250,7 @@ collections:
       emoji: "🔪"
       schedule: range(10/01-11/01)
       visible: range(10/01-10/31)
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Slasher.jpg
+      poster_type: genre
     summary: "He's right behind you!"
     trakt_list:
       - https://trakt.tv/users/hdlists/lists/80s-slasher-movies
@@ -263,7 +261,8 @@ collections:
       emoji: "🗳️"
       schedule: range(10/25-11/12)
       visible: range(10/25-11/11)
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Politics.jpg
+      poster_type: genre
+      poster_name: Politics
     summary: "I like the noise of democracy."
     trakt_list:
       - https://trakt.tv/users/majeed_pk/lists/best-political-movies
@@ -274,7 +273,7 @@ collections:
       emoji: "🦃"
       schedule: range(11/01-12/01)
       visible: range(11/01-11/30)
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/thanksgiving.jpg
+      poster_name: thanksgiving
     summary: "Gobble gobble!"
     imdb_list:
       - https://www.imdb.com/list/ls000835734/
@@ -292,7 +291,7 @@ collections:
       emoji: "🎅"
       schedule: range(12/01-01/01)
       visible: range(12/01-12/31)
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/christmas.jpg
+      poster_name: christmas
     summary: "Deck the halls!"
     imdb_list:
       - https://www.imdb.com/list/ls000096828/

@@ -3,11 +3,9 @@ external_templates:
 
 collections:
 
-  # TODO: move to shared?
   Mind-Fuck:
     template:
       name: Genre
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Mind-Fuck.jpg
     trakt_list_details:
       - https://trakt.tv/users/benfranklin/lists/best-mindfucks
       - https://trakt.tv/users/hdlists/lists/mindfuck-movies
@@ -15,5 +13,4 @@ collections:
   Screwball Comedy:
     template:
       name: Genre
-      # TODO: poster
     tmdb_keyword: 155457

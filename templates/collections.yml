@@ -6,7 +6,10 @@ templates:
       level: ""
       sort_title_name: <<mapping_name>>
       visible: false
+      poster_name: <<mapping_name>>
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/<<poster_type>>/<<poster_name_encoded>>.jpg
     conditionals: &conditionals
+      # TODO: name_suffix too - franchises could have a useful thing to specify "collection" or "series" or whatever
       name_prefix:
         default: ""
         conditions:
@@ -19,8 +22,6 @@ templates:
     name: <<name_prefix>><<mapping_name>>
     sort_title: <<section>>_+<<level>>_<<sort_title_name>>
     collection_mode: <<collection_mode>>
-    optional:
-      - poster_url
     sync_mode: sync
     schedule: daily
     visible_home: <<visible>>
@@ -69,6 +70,7 @@ templates:
     default:
       <<: *defaults
       section: "030"
+      poster_type: seasonal
       # unfortunately can't operate on these ranges, so need to have them separate
       schedule: never
       visible: never
@@ -82,8 +84,7 @@ templates:
     default:
       <<: *defaults
       section: "040"
-      poster_name: <<mapping_name>>
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/<<poster_name_encoded>>.jpg
+      poster_type: chart
     conditionals: *conditionals
     <<: *common
     visible_library: true
@@ -127,8 +128,7 @@ templates:
     default:
       <<: *defaults
       section: "070"
-      poster_name: <<mapping_name>>
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/<<poster_name_encoded>>.jpg
+      poster_type: genre
     conditionals: *conditionals
     <<: *common
 

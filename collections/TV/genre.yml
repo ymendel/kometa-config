@@ -3,16 +3,20 @@ external_templates:
 
 collections:
 
+  Competition:
+    template:
+      name: Genre
+    tmdb_keyword: 250845
+
   Game Show:
     template:
       name: Genre
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Game%20Show.jpg
+    # TODO: what's wrong with this keyword? check API results
     tmdb_keyword: 4325
 
   Mystery Box:
     template:
       name: Genre
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Mystery%20Box.jpg
     imdb_list:
       - https://www.imdb.com/list/ls520446971/
     visible_library: true

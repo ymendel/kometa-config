@@ -15,7 +15,8 @@ collections:
     template:
       name: Collection
       sort_title_name: "Best Movie You Never Saw"
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Unexpectedly%20Amazing.jpg
+      poster_type: genre
+      poster_name: Unexpectedly Amazing
     trakt_list:
       - https://trakt.tv/users/giladg/lists/the-best-movie-you-never-saw
     collection_order: random
@@ -25,7 +26,8 @@ collections:
       name: Collection
       emoji: "📽️"
       sort_title_name: "Criterion Collection"
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Criterion%20Collection.jpg
+      poster_type: genre
+      poster_name: Criterion Collection
     trakt_list_details:
       - https://trakt.tv/users/maxwelldeux/lists/the-criterion-collection
     collection_order: critic_rating.desc
@@ -41,7 +43,8 @@ collections:
   Filmic Lies:
     template:
       name: Collection
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Historical%20Fiction.jpg
+      poster_type: genre
+      poster_name: Historical Fiction
     letterboxd_list: https://letterboxd.com/darrencb/list/filmic-lies-fictional-stories-about-real/
     summary: "Fictional stories about real people. Historical films about real people or notable real events, but tell fictitious stories."
     collection_order: custom
@@ -67,7 +70,8 @@ collections:
     template:
       name: Collection
       emoji: "🤨"
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Mystery.jpg
+      poster_type: genre
+      poster_name: Mystery
     summary: "The films of the podcast 'How Did This Get Made?'"
     trakt_list:
       - https://trakt.tv/users/lish408/lists/how-did-this-get-made-podcast
@@ -84,7 +88,8 @@ collections:
   Love Hurts:
     template:
       name: Collection
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Heartbreak.jpg
+      poster_type: genre
+      poster_name: Heartbreak
     letterboxd_list: https://letterboxd.com/darrencb/list/love-hurts/
     summary: "Films of love and pain. That love can be romantic or familial."
     collection_order: custom
@@ -92,7 +97,8 @@ collections:
   Sculpting in Time:
     template:
       name: Collection
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Surreal.jpg
+      poster_type: genre
+      poster_name: Surreal
     letterboxd_list: https://letterboxd.com/darrencb/list/sculpting-in-time-cinema-without-linearity/
     summary: "Cinema without linearity. Films where time and order are immaterial, told with grace."
     collection_order: custom
@@ -100,7 +106,8 @@ collections:
   Unconventional Biopics:
     template:
       name: Collection
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Biopic.jpg
+      poster_type: genre
+      poster_name: Biopic
     letterboxd_list: https://letterboxd.com/darrencb/list/unconventional-biopics/
     summary: "Films about real life people that aren't just dramatised Wikipedia pages (for better or for worse)."
     collection_order: custom
