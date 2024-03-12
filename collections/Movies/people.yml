@@ -1,0 +1,40 @@
+external_templates:
+  - folder: config/templates
+
+collections:
+
+  Director Collections:
+    template:
+      - name: separator
+        separator: director
+      - name: Director
+        level: "+++++"
+
+dynamic_collections:
+
+  Directors:
+    type: custom
+    data:
+      coen: Coen Brothers
+      miyazaki: Hayao Miyazaki
+      waititi: Taika Waititi
+      herzog: Werner Herzog
+      anderson: Wes Anderson
+    template:
+      - tmdb_person
+      - Director
+    template_variables:
+      style:
+        default: signature
+      tmdb_id:
+        default: <<tmdb_person>>
+      tmdb_person:
+        coen:
+          all:
+            - 1223
+            - 1224
+        miyazaki: 608
+        waititi: 55934
+        herzog: 6818
+        anderson: 5655
+
