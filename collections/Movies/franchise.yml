@@ -56,6 +56,11 @@ collections:
       name: Franchise
     tmdb_collection: 391860
 
+  Knives Out:
+    template:
+      name: Franchise
+    tmdb_collection: 722971
+
   The Man With No Name:
     template:
       name: Franchise
