@@ -15,26 +15,31 @@ dynamic_collections:
   Directors:
     type: custom
     data:
+      anderson: Wes Anderson
       coen: Coen Brothers
+      herzog: Werner Herzog
       miyazaki: Hayao Miyazaki
       waititi: Taika Waititi
-      herzog: Werner Herzog
-      anderson: Wes Anderson
     template:
       - tmdb_person
       - Director
     template_variables:
       style:
         default: signature
+      sort_title_name:
+        anderson: "Anderson, Wes"
+        herzog: "Herzog, Werner"
+        miyazaki: "Miyazaki, Hayao"
+        waititi: "Waititi, Taika"
       tmdb_id:
         default: <<tmdb_person>>
       tmdb_person:
+        anderson: 5655
         coen:
           all:
             - 1223
             - 1224
+        herzog: 6818
         miyazaki: 608
         waititi: 55934
-        herzog: 6818
-        anderson: 5655
 
