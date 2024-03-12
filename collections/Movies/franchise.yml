@@ -13,7 +13,7 @@ collections:
   Chronicles of Riddick:
     template:
       name: Franchise
-    tmdb_collection: 2794
+    tmdb_collection_details: 2794
 
   Cornetto Trilogy:
     template:
@@ -24,18 +24,20 @@ collections:
   Deadpool:
     template:
       name: Franchise
-    tmdb_collection: 448150
+    tmdb_collection_details: 448150
     tmdb_movie: 567604  # Once Upon a Deadpool
 
   Hannibal Lecter:
     template:
       name: Franchise
+    tmdb_collection_details: 9743
     imdb_list:
       - https://www.imdb.com/list/ls033994793/
 
   Hellboy:
     template:
       name: Franchise
+    tmdb_collection_details: 17235
     imdb_list:
       - https://www.imdb.com/list/ls042310244/
 
@@ -43,23 +45,24 @@ collections:
     template:
       name: Franchise
       sort_title: "Hustler"
-    tmdb_collection: 387219
+    tmdb_collection_details: 387219
 
   The Karate Kid:
     template:
       name: Franchise
       sort_title: "Karate Kid"
-    tmdb_collection: 8580
+      poster_name: "Karate Kid"
+    tmdb_collection_details: 8580
 
   Kingsman:
     template:
       name: Franchise
-    tmdb_collection: 391860
+    tmdb_collection_details: 391860
 
   Knives Out:
     template:
       name: Franchise
-    tmdb_collection: 722971
+    tmdb_collection_details: 722971
 
   The Man With No Name:
     template:
@@ -71,6 +74,7 @@ collections:
   "Ocean's":
     template:
       name: Franchise
+    tmdb_collection_details: 304
     imdb_list:
       - https://www.imdb.com/list/ls068557644/
 
@@ -78,9 +82,9 @@ collections:
     template:
       name: Franchise
       sort_title: "Thin Man"
-    tmdb_collection: 47814
+    tmdb_collection_details: 47814
 
   World of Watches:
     template:
       name: Franchise
-    tmdb_collection: 3106
+    tmdb_collection_details: 3106
