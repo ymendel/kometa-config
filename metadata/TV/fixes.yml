@@ -4,7 +4,9 @@ metadata:
     match:
       title:
         - Cunk on Earth
-        - Highlander
+        - Deadliest Warrior
+        - The Great Pottery Throw Down
+        - "Highlander: The Series"
         - The Twilight Zone (1985)
         - Vikings
     genre.remove: Documentary
