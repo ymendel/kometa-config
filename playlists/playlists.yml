@@ -7,7 +7,9 @@ playlists:
   Jeffrey Spooderman:
     template:
       name: playlist
-      # TODO: make this like the collections
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/franchise/Spider-Man.jpg
+      poster_type: franchise
+      poster_name: "Spider-Man"
     summary: "All Spider-Man movies, from Tobey Maguire to the present."
+    # would like to use the Spider-Man franchise collections,
+    # but not sure how to get the ordering right using plex_search
     trakt_list: https://trakt.tv/users/ymendel/lists/spooderman

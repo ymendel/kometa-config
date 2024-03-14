@@ -1,9 +1,10 @@
 templates:
 
   playlist:
+    default:
+      poster_name: <<mapping_name>>
+      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/<<poster_type>>/<<poster_name_encoded>>.jpg
     libraries: Movies, TV Shows
     sync_mode: sync
     sync_to_users: all
-    optional:
-      - poster_url
     url_poster: <<poster_url>>

@@ -78,11 +78,39 @@ collections:
     imdb_list:
       - https://www.imdb.com/list/ls068557644/
 
+  Spider-Man:
+    template:
+      name: Franchise
+      poster_name: skip  # just use the TMDb collection poster
+    tmdb_collection_details: 556
+
+  The Amazing Spider-Man:
+    template:
+      name: Franchise
+      sort_title_name: "Spider-Man, Amazing"
+    tmdb_collection_details: 125574
+
+  MCU Spider-Man:
+    template:
+      name: Franchise
+      sort_title_name: "Spider-Man, MCU"
+    tmdb_collection_details: 531241
+
+  Spider-Verse:
+    template:
+      name: Franchise
+    tmdb_collection_details: 573436
+
   The Thin Man:
     template:
       name: Franchise
       sort_title_name: "Thin Man"
     tmdb_collection_details: 47814
+
+  Venom:
+    template:
+      name: Franchise
+    tmdb_collection_details: 558216
 
   World of Watches:
     template:

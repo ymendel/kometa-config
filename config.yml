@@ -15,6 +15,7 @@ libraries:
     - folder: config/collections/shared
     overlay_files:
     - pmm: ribbon
+    - pmm: mediastinger
   TV Shows:
     operations:
       assets_for_all: true

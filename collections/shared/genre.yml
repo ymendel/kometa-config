@@ -30,6 +30,11 @@ collections:
       name: Genre
     tmdb_keyword: 11800
 
+  Musical:
+    template:
+      name: Genre
+    tmdb_keyword: 4344
+
   Remake:
     template:
       name: Genre
