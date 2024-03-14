@@ -1,0 +1,11 @@
+external_templates:
+  - folder: config/templates
+
+collections:
+
+  Franchise Collections:
+    template:
+      - name: separator
+        separator: franchise
+      - name: Franchise
+        level: "+++++"

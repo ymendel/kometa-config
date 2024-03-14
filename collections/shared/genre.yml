@@ -74,3 +74,8 @@ collections:
     template:
       name: Genre
     tmdb_keyword: 4379
+
+  True Crime:
+    template:
+      name: Genre
+    tmdb_keyword: 33722

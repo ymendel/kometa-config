@@ -1,0 +1,14 @@
+external_templates:
+  - folder: config/templates
+
+collections:
+
+  Dune:
+    # because the poster comes from an image asset
+    # and the collection mapping name matches the movie/series name
+    name_mapping: Dune Franchise
+    template:
+      name: Franchise
+    tmdb_show:
+      - 19566 # Syfy Dune
+      - 9156  # Syfy Children of Dune

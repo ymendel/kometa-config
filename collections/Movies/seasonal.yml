@@ -239,7 +239,6 @@ collections:
       emoji: "🍬"
       schedule: range(10/01-11/01)
       visible: range(10/01-10/31)
-      # TODO: poster
     summary: "Trick or Treat!"
     trakt_list:
       - https://trakt.tv/users/hdlists/lists/halloween-movies-for-kids

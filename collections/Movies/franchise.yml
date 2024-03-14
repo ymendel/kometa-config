@@ -3,13 +3,6 @@ external_templates:
 
 collections:
 
-  Franchise Collections:
-    template:
-      - name: separator
-        separator: franchise
-      - name: Franchise
-        level: "+++++"
-
   Chronicles of Riddick:
     template:
       name: Franchise
@@ -26,6 +19,14 @@ collections:
       name: Franchise
     tmdb_collection_details: 448150
     tmdb_movie: 567604  # Once Upon a Deadpool
+
+  Dune:
+    # because the poster comes from an image asset
+    # and the collection mapping name matches the movie/series name
+    name_mapping: Dune Franchise
+    template:
+      name: Franchise
+    tmdb_collection_details: 726871
 
   Hannibal Lecter:
     template:

@@ -15,8 +15,6 @@ collections:
     template:
       name: Collection
       sort_title_name: "Best Movie You Never Saw"
-      poster_type: genre
-      poster_name: Unexpectedly Amazing
     trakt_list:
       - https://trakt.tv/users/giladg/lists/the-best-movie-you-never-saw
     collection_order: random
@@ -43,8 +41,7 @@ collections:
   Filmic Lies:
     template:
       name: Collection
-      poster_type: genre
-      poster_name: Historical Fiction
+      # TODO: poster
     letterboxd_list: https://letterboxd.com/darrencb/list/filmic-lies-fictional-stories-about-real/
     summary: "Fictional stories about real people. Historical films about real people or notable real events, but tell fictitious stories."
     collection_order: custom
@@ -60,18 +57,16 @@ collections:
   Hopeless Cinema:
     template:
       name: Collection
-      # TODO: poster
     letterboxd_list: https://letterboxd.com/darrencb/list/the-world-is-hell-hopeless-cinema/
     summary: "Pessimistic worldviews. For when you want to wallow in despair. It doesn't matter if we all die."
     collection_order: custom
     visible_library: true
 
   How Did This Get Made?:
+    name_mapping: How Did This Get Made  # had trouble getting the asset directory to work otherwise
     template:
       name: Collection
       emoji: "🤨"
-      poster_type: genre
-      poster_name: Mystery
     summary: "The films of the podcast 'How Did This Get Made?'"
     trakt_list:
       - https://trakt.tv/users/lish408/lists/how-did-this-get-made-podcast
@@ -80,7 +75,6 @@ collections:
   Jimmy Carter at the White House:
     template:
       name: Collection
-      # TODO: poster
     letterboxd_list: https://letterboxd.com/jackcuellar/list/every-single-movie-that-jimmy-carter-watched/
     summary: "Movies that Jimmy Carter watched at the White House."
     collection_order: custom
@@ -88,8 +82,6 @@ collections:
   Love Hurts:
     template:
       name: Collection
-      poster_type: genre
-      poster_name: Heartbreak
     letterboxd_list: https://letterboxd.com/darrencb/list/love-hurts/
     summary: "Films of love and pain. That love can be romantic or familial."
     collection_order: custom
@@ -97,8 +89,6 @@ collections:
   Sculpting in Time:
     template:
       name: Collection
-      poster_type: genre
-      poster_name: Surreal
     letterboxd_list: https://letterboxd.com/darrencb/list/sculpting-in-time-cinema-without-linearity/
     summary: "Cinema without linearity. Films where time and order are immaterial, told with grace."
     collection_order: custom
