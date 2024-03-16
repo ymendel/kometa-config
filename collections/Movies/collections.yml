@@ -49,7 +49,6 @@ collections:
   Films With a Good Heart:
     template:
       name: Collection
-      # TODO: poster
     letterboxd_list: https://letterboxd.com/darrencb/list/films-with-a-good-heart/
     summary: "Films that promote caring and understanding. Films with good intentions."
     collection_order: custom

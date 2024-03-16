@@ -306,7 +306,6 @@ collections:
       emoji: "🎁"
       schedule: range(12/01-01/01)
       visible: range(12/01-12/31)
-      # TODO: poster
     summary: "Christmas movies with extra sap!"
     trakt_list:
       - https://trakt.tv/users/mzdiobolik/lists/hallmark-christmas-movies
