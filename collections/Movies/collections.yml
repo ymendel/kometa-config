@@ -85,6 +85,14 @@ collections:
     summary: "Films of love and pain. That love can be romantic or familial."
     collection_order: custom
 
+  The Rewatchables:
+    template:
+      name: Collection
+      sort_title_name: "Rewatchables"
+    letterboxd_list: https://letterboxd.com/marq/list/the-rewatchables/
+    summary: "The films of the podcast 'The Rewatchables', which features The Ringer’s Bill Simmons and a roundtable of people from The Ringer universe discussing movies they can’t seem to stop watching."
+    collection_order: custom
+
   Sculpting in Time:
     template:
       name: Collection

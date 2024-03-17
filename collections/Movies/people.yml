@@ -19,6 +19,7 @@ dynamic_collections:
       coen: Coen Brothers
       herzog: Werner Herzog
       miyazaki: Hayao Miyazaki
+      soderbergh: Steven Soderbergh
       waititi: Taika Waititi
     template:
       - tmdb_person
@@ -30,6 +31,7 @@ dynamic_collections:
         anderson: "Anderson, Wes"
         herzog: "Herzog, Werner"
         miyazaki: "Miyazaki, Hayao"
+        soderbergh: "Soderbergh, Steven"
         waititi: "Waititi, Taika"
       tmdb_id:
         default: <<tmdb_person>>
@@ -41,5 +43,6 @@ dynamic_collections:
             - 1224
         herzog: 6818
         miyazaki: 608
+        soderbergh: 1884
         waititi: 55934
 
