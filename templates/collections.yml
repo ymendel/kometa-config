@@ -28,6 +28,10 @@ templates:
     visible_library: <<visible>>
     visible_shared: <<visible>>
     url_poster: <<poster_url>>
+    optional:
+      - filters
+    # this is here for dynamic collections
+    filters: <<filters>>
 
   New:
     default:
@@ -50,7 +54,6 @@ templates:
       any:
         actor: tmdb
     tmdb_person: <<tmdb_id>>
-    sync_mode: append
 
   InMemoriamDirector:
     default:
@@ -64,7 +67,6 @@ templates:
       any:
         director: tmdb
     tmdb_person: <<tmdb_id>>
-    sync_mode: append
 
   Holiday:
     default:
@@ -107,7 +109,6 @@ templates:
       all:
         actor: tmdb
     tmdb_person: <<tmdb_id>>
-    sync_mode: append
 
   # y'know, just "collections"
   Collection:
@@ -157,7 +158,6 @@ templates:
         producer: tmdb
         writer: tmdb
     tmdb_person: <<tmdb_id>>
-    sync_mode: append
 
   Actor:
     default:
@@ -168,7 +168,6 @@ templates:
     optional:
       - tmdb_id
     tmdb_actor_details: <<tmdb_id>>
-    sync_mode: append
 
   Director:
     default:
@@ -179,7 +178,6 @@ templates:
     optional:
       - tmdb_id
     tmdb_director_details: <<tmdb_id>>
-    sync_mode: append
 
   Producer:
     default:
@@ -190,7 +188,6 @@ templates:
     optional:
       - tmdb_id
     tmdb_producer_details: <<tmdb_id>>
-    sync_mode: append
 
   Studio:
     default:
