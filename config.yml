@@ -11,11 +11,11 @@ libraries:
     metadata_files:
       - folder: config/metadata/Movies
     collection_files:
-    - folder: config/collections/Movies
-    - folder: config/collections/shared
+      - folder: config/collections/Movies
+      - folder: config/collections/shared
     overlay_files:
-    - pmm: ribbon
-    - pmm: mediastinger
+      - pmm: ribbon
+      - pmm: mediastinger
   TV Shows:
     operations:
       assets_for_all: true
@@ -30,16 +30,17 @@ libraries:
     metadata_files:
       - folder: config/metadata/TV
     collection_files:
-    - folder: config/collections/TV
-    - folder: config/collections/shared
+      - folder: config/collections/TV
+      - folder: config/collections/shared
     overlay_files:
-    - pmm: ribbon
-    - pmm: status
+      - pmm: ribbon
+      - pmm: status
 playlist_files:
+# honestly not sure why indenting here causes a YAML error
 - folder: config/playlists
 - pmm: playlist
-  template_variables:
-    libraries: Movies, TV Shows  # list of libraries that you want the PMM Defaults playlists to look at
+template_variables:
+  libraries: Movies, TV Shows  # list of libraries that you want the PMM Defaults playlists to look at
 settings:
   cache: true
   cache_expiration: 60  # days
@@ -79,10 +80,10 @@ settings:
   custom_repo:
   check_nightly: false
   run_order:
-  - operations
-  - metadata
-  - collections
-  - overlays
+    - operations
+    - metadata
+    - collections
+    - overlays
 webhooks:                        # Can be individually specified per library as well
   error:
   version:
