@@ -14,7 +14,9 @@ libraries:
       - folder: config/collections/Movies
       - folder: config/collections/shared
     overlay_files:
-      - pmm: ribbon
+      # "overlays" is where the actual overlay images are stored
+      - folder: config/overlay/Movies
+      - folder: config/overlay/shared
       - pmm: mediastinger
   TV Shows:
     operations:
@@ -33,8 +35,9 @@ libraries:
       - folder: config/collections/TV
       - folder: config/collections/shared
     overlay_files:
-      - pmm: ribbon
-      - pmm: status
+      # "overlays" is where the actual overlay images are stored
+      - folder: config/overlay/TV
+      - folder: config/overlay/shared
 playlist_files:
 # honestly not sure why indenting here causes a YAML error
 - folder: config/playlists

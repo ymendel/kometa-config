@@ -1,0 +1,74 @@
+templates:
+
+  # this is _only_ to hold these anchors for later alias use
+  anchor_holder:
+    default: &defaults
+      overlay_name: <<mapping_name>>
+      file_name: <<mapping_name>>
+      file_path: config/assets/overlays/<<overlay_type>>/<<file_name>>.png
+    overlay: &overlay
+      name: <<overlay_name>>
+      file: <<file_path>>
+      group: <<group>>
+      weight: <<weight>>
+
+  status:
+    default:
+      <<: *defaults
+      overlay_type: status
+      group: status
+      status: <<mapping_name>>
+    overlay:
+      <<: *overlay
+    optional:
+      - last
+    conditionals:
+      all:
+        conditions:
+          - status: [ended, returning, canceled]
+            value: true
+      tmdb:
+        conditions:
+          - status: [ended, returning, canceled]
+            value: <<status>>
+      last_days:
+        conditions:
+          - status: airing
+            last.exists: true
+            value: <<last>>
+    ignore_blank_results: true
+    plex_search:
+      any:
+        episode_air_date: <<last_days>>
+    plex_all: <<all>>
+    filters:
+      tmdb_status: <<tmdb>>
+
+  # TODO: consolidate these
+  award_ribbon:
+    default:
+      <<: *defaults
+      overlay_type: award
+      group: bottom_right_ribbon
+      status: <<mapping_name>>
+    overlay:
+      <<: *overlay
+    optional:
+      - mdb_key
+      - imdb_key
+    mdblist_list: https://mdblist.com/lists/plexmetamanager/<<mdb_key>><<library_type>>s
+    imdb_chart: <<imdb_key>>_<<library_type>>s
+
+  chart_ribbon:
+    default:
+      <<: *defaults
+      overlay_type: chart
+      group: bottom_right_ribbon
+      status: <<mapping_name>>
+    overlay:
+      <<: *overlay
+    optional:
+      - mdb_key
+      - imdb_key
+    mdblist_list: https://mdblist.com/lists/plexmetamanager/<<mdb_key>><<library_type>>s
+    imdb_chart: <<imdb_key>>_<<library_type>>s

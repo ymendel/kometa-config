@@ -1,0 +1,26 @@
+external_templates:
+  - folder: config/templates
+
+overlays:
+
+  airing:
+    template:
+      name: status
+      weight: 40
+      last: 14
+
+  returning:
+    template:
+      name: status
+      weight: 30
+
+  canceled:
+    template:
+      name: status
+      weight: 20
+      file_name: cancelled
+
+  ended:
+    template:
+      name: status
+      weight: 10
