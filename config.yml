@@ -130,33 +130,34 @@ radarr:                          # Can be individually specified per library as 
   token: ################################
   add_missing: false
   add_existing: false
-  root_folder_path: S:/Movies
-  monitor: true
-  availability: announced
-  quality_profile: HD-1080p
-  tag:
-  search: false
-  radarr_path:
-  plex_path:
   upgrade_existing: false
+  root_folder_path: /share/Download
+  monitor: movie
+  availability: announced
+  quality_profile: "720->DVD w/ 1080"
+  tag: PMM
+  search: true
+  radarr_path:  # leaving this out, only important with add_existing or radarr_add_all
+  plex_path:    # leaving this out, only important with add_existing or radarr_add_all
   ignore_cache: false
 sonarr:                          # Can be individually specified per library as well
   url: <redacted>
   token: ################################
   add_missing: false
   add_existing: false
-  root_folder_path: S:/TV Shows
-  monitor: all
-  quality_profile: HD-1080p
-  language_profile: English
+  upgrade_existing: false
+  root_folder_path: /share/Download
+  monitor: missing
+  quality_profile: "720->TV w/ 1080"
+  # I don't want only English, and I don't see language profiles in my Sonarr anyway (v4)
+  # language_profile: English
   series_type: standard
   season_folder: true
-  tag:
-  search: false
+  tag: PMM
+  search: true
   cutoff_search: false
-  sonarr_path:
-  plex_path:
-  upgrade_existing: false
+  sonarr_path:  # leaving this out, only important with add_existing or sonarr_add_all
+  plex_path:    # leaving this out, only important with add_existing or sonarr_add_all
   ignore_cache: false
 trakt:
   client_id: <redacted>
