@@ -143,10 +143,16 @@ overlays:
       weight: 50
       imdb_key: top
 
-  Rotten Tomatoes Certified Fresh:
+  Rotten Tomatoes 100 Percent:
     template:
       name: chart_ribbon
       file_name: rt_gold
-      weight: 40
-      mdb_key: certifiedfresh
+      weight: 41
+    mdblist_list: https://mdblist.com/lists/ymendel/the-100-club
 
+  Rotten Tomatoes Certified Fresh:
+    template:
+      name: chart_ribbon
+      file_name: rt_silver
+      weight: 40
+    mdblist_list: https://mdblist.com/lists/linaspurinis/certified-fresh
