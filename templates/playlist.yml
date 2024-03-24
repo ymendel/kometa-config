@@ -4,7 +4,7 @@ templates:
     default:
       poster_name: <<mapping_name>>
       poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/<<poster_type>>/<<poster_name_encoded>>.jpg
-    libraries: Movies, TV Shows
+    libraries: <<libraries>>
     sync_mode: sync
     sync_to_users: all
     url_poster: <<poster_url>>
