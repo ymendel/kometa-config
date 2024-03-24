@@ -3,6 +3,21 @@ external_templates:
 
 playlists:
 
+  James Acaster:
+    template:
+      - name: tmdb_person
+        style: signature
+        key_name: James Acaster
+        tmdb_person: 1684762
+      - name: playlist
+    sync_to_users:  # this is just for me
+    summary: "All the James Acaster I have."
+    imdb_search:
+      cast: nm4735423
+      type: movie, short, tv_movie, tv_episode, tv_special
+      sort_by: release.asc
+      limit: 1000
+
   # just a fun lil' Thanksgiving tradition
   Jeffrey Spooderman:
     template:
