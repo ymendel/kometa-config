@@ -7,6 +7,7 @@ collections:
     template:
       name: Franchise
     tmdb_collection_details: 2794
+    radarr_add_missing: true
 
   Cornetto Trilogy:
     template:
@@ -19,6 +20,7 @@ collections:
       name: Franchise
     tmdb_collection_details: 448150
     tmdb_movie: 567604  # Once Upon a Deadpool
+    radarr_add_missing: true
 
   Dune:
     # because the poster comes from an image asset
@@ -27,6 +29,7 @@ collections:
     template:
       name: Franchise
     tmdb_collection_details: 726871
+    radarr_add_missing: true
 
   Hannibal Lecter:
     template:
@@ -59,11 +62,13 @@ collections:
     template:
       name: Franchise
     tmdb_collection_details: 391860
+    radarr_add_missing: true
 
   Knives Out:
     template:
       name: Franchise
     tmdb_collection_details: 722971
+    radarr_add_missing: true
 
   The Man With No Name:
     template:
@@ -78,29 +83,34 @@ collections:
     tmdb_collection_details: 304
     imdb_list:
       - https://www.imdb.com/list/ls068557644/
+    radarr_add_missing: true
 
   Spider-Man:
     template:
       name: Franchise
       poster_name: skip  # just use the TMDb collection poster
     tmdb_collection_details: 556
+    radarr_add_missing: true
 
   The Amazing Spider-Man:
     template:
       name: Franchise
       sort_title_name: "Spider-Man, Amazing"
     tmdb_collection_details: 125574
+    radarr_add_missing: true
 
   MCU Spider-Man:
     template:
       name: Franchise
       sort_title_name: "Spider-Man, MCU"
     tmdb_collection_details: 531241
+    radarr_add_missing: true
 
   Spider-Verse:
     template:
       name: Franchise
     tmdb_collection_details: 573436
+    radarr_add_missing: true
 
   The Thin Man:
     template:
@@ -112,6 +122,7 @@ collections:
     template:
       name: Franchise
     tmdb_collection_details: 558216
+    radarr_add_missing: true
 
   World of Watches:
     template:
