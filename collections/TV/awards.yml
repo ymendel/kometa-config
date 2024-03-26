@@ -1,6 +1,8 @@
 external_templates:
   - folder: config/templates
 
+# NOTE: these categories / filters should match what's in the overlays
+
 collections:
 
   Award Collections:
@@ -87,6 +89,7 @@ collections:
         - outstanding miniseries
         - outstanding series - comedy
         - outstanding series - drama
+        - outstanding variety sketch series
       winning: true
 
   Golden Globes Best in Category Winners:

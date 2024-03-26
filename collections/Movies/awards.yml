@@ -1,6 +1,8 @@
 external_templates:
   - folder: config/templates
 
+# NOTE: these categories / filters should match what's in the overlays
+
 collections:
 
   Award Collections:
@@ -97,18 +99,7 @@ collections:
         - best director, dramatic picture
       winning: true
 
-  # TODO: figure out best picture
-  Sundance Best Director Winners:
-    template:
-      name: Award
-      poster_type: award/sundance
-      poster_name: best_director_winner
-    imdb_award:
-      event_id: ev0000631
-      event_year: all
-      award_filter: directing award
-      winning: true
-
+  # this is their "best picture"
   Sundance Grand Jury Winners:
     template:
       name: Award
@@ -118,4 +109,15 @@ collections:
       event_id: ev0000631
       event_year: all
       award_filter: grand jury prize
+      winning: true
+
+  Sundance Best Director Winners:
+    template:
+      name: Award
+      poster_type: award/sundance
+      poster_name: best_director_winner
+    imdb_award:
+      event_id: ev0000631
+      event_year: all
+      award_filter: directing award
       winning: true

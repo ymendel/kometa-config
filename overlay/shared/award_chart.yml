@@ -1,7 +1,7 @@
-# TODO: compare these categories / filters to the awards collections
-
 external_templates:
   - folder: config/templates
+
+# NOTE: these categories / filters should match what's in the awards collections
 
 overlays:
 
@@ -34,7 +34,6 @@ overlays:
         - best director, dramatic picture
       winning: true
 
-  # TODO: movies-only
   Golden Globe Winner:
     template:
       name: award_ribbon
@@ -56,6 +55,14 @@ overlays:
         - best motion picture, drama
         - best motion picture, musical or comedy
         - best motion picture, non-english language
+        - best television series, drama
+        - best television series, musical or comedy
+        - best television limited series, anthology series, or motion picture made for television
+        - best miniseries or motion picture made for television
+        - best television series - comedy or musical
+        - best television series - drama
+        - best television special - variety or musical
+        - best tv show
       winning: true
 
   # TODO: movies-only
@@ -74,7 +81,6 @@ overlays:
       winning: true
 
   # TODO: overlay image
-  # TODO: movies-only
   BAFTA Winners:
     schedule: never
     template:
@@ -84,7 +90,41 @@ overlays:
     imdb_award:
       event_id: ev0000123
       event_year: all
-      category_filter: best film
+      category_filter:
+        - best film
+        - comedy entertainment programme
+        - current affairs
+        - daytime
+        - drama series
+        - entertainment programme
+        - factual series
+        - mini-series
+        - reality & constructed factual
+        - scripted comedy
+        - short form programme
+        - single documentary
+        - single drama
+        - soap & continuing drama
+        - specialist factual
+        - best drama plays
+        - best drama series
+        - best drama serial
+        - best drama series/serial
+        - best dramatic series
+        - "best factual: current affairs"
+        - "best factual: documentary"
+        - best light entertainment
+        - best light entertainment programme
+        - best light entertainment programme/series
+        - best light entertainment (programme or series)
+        - best specialised programme
+        - best documentary programme
+        - best drama series/serial
+        - best situation comedy
+        - best factual series
+        - "'flame of knowledge'"
+        - "'harlequin' (documentary/factual)"
+        - "'harlequin' (drama/light entertainment)"
       winning: true
 
   # TODO: overlay image
@@ -98,7 +138,9 @@ overlays:
     imdb_award:
       event_id: ev0000631
       event_year: all
-      award_filter: grand jury prize
+      award_filter:
+        - grand jury prize
+        - directing award
       winning: true
 
   Emmys Winner:
@@ -134,6 +176,7 @@ overlays:
         - outstanding miniseries
         - outstanding series - comedy
         - outstanding series - drama
+        - outstanding variety sketch series
       winning: true
 
   IMDb Top 250:
