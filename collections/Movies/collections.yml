@@ -14,7 +14,6 @@ collections:
   The Best Movie You Never Saw:
     template:
       name: Collection
-      sort_title_name: "Best Movie You Never Saw"
     trakt_list:
       - https://trakt.tv/users/giladg/lists/the-best-movie-you-never-saw
     collection_order: random
@@ -23,7 +22,6 @@ collections:
     template:
       name: Collection
       emoji: "📽️"
-      sort_title_name: "Criterion Collection"
       poster_type: genre
       poster_name: Criterion Collection
     trakt_list_details:
@@ -88,7 +86,6 @@ collections:
   The Rewatchables:
     template:
       name: Collection
-      sort_title_name: "Rewatchables"
     letterboxd_list: https://letterboxd.com/marq/list/the-rewatchables/
     summary: "The films of the podcast 'The Rewatchables', which features The Ringer’s Bill Simmons and a roundtable of people from The Ringer universe discussing movies they can’t seem to stop watching."
     collection_order: custom

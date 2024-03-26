@@ -48,13 +48,11 @@ collections:
   The Hustler:
     template:
       name: Franchise
-      sort_title_name: "Hustler"
     tmdb_collection_details: 387219
 
   The Karate Kid:
     template:
       name: Franchise
-      sort_title_name: "Karate Kid"
       poster_name: "Karate Kid"
     tmdb_collection_details: 8580
 
@@ -73,7 +71,6 @@ collections:
   The Man With No Name:
     template:
       name: Franchise
-      sort_title_name: "Man With No Name"
     imdb_list:
       - https://www.imdb.com/list/ls023916334/
 
@@ -115,7 +112,6 @@ collections:
   The Thin Man:
     template:
       name: Franchise
-      sort_title_name: "Thin Man"
     tmdb_collection_details: 47814
 
   Venom:

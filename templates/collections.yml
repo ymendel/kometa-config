@@ -4,7 +4,7 @@ templates:
   anchor_holder:
     default: &defaults
       level: ""
-      sort_title_name: <<mapping_name>>
+      sort_title_name: <<mapping_sort>>
       visible: false
       poster_name: <<mapping_name>>
       poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/<<poster_type>>/<<poster_name_encoded>>.jpg
@@ -19,6 +19,7 @@ templates:
   # this likewise is done to use as an alias later
   # it's separate from the above anchors for ease of extending
   common: &common
+    move_prefix: The, A, An
     name: <<name_prefix>><<mapping_name>>
     sort_title: <<section>>_+<<level>>_<<sort_title_name>>
     collection_mode: <<collection_mode>>
