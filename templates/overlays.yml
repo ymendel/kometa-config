@@ -44,25 +44,9 @@ templates:
     filters:
       tmdb_status: <<tmdb>>
 
-  # TODO: consolidate these
-  award_ribbon:
+  award_chart_ribbon:
     default:
       <<: *defaults
-      overlay_type: award
-      group: bottom_right_ribbon
-      status: <<mapping_name>>
-    overlay:
-      <<: *overlay
-    optional:
-      - mdb_key
-      - imdb_key
-    mdblist_list: https://mdblist.com/lists/plexmetamanager/<<mdb_key>><<library_type>>s
-    imdb_chart: <<imdb_key>>_<<library_type>>s
-
-  chart_ribbon:
-    default:
-      <<: *defaults
-      overlay_type: chart
       group: bottom_right_ribbon
       status: <<mapping_name>>
     overlay:

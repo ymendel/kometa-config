@@ -7,9 +7,11 @@ overlays:
 
   Oscars Best Picture:
     template:
-      name: award_ribbon
+      name: award_chart_ribbon
+      overlay_type: award
       file_name: oscar
       weight: 180
+    run_definition: movie
     imdb_award:
       event_id: ev0000003
       event_year: all
@@ -18,12 +20,13 @@ overlays:
         - best motion picture of the year
       winning: true
 
-  # TODO: movies-only
   Oscars Best Director:
     template:
-      name: award_ribbon
+      name: award_chart_ribbon
+      overlay_type: award
       file_name: oscar
       weight: 170
+    run_definition: movie
     imdb_award:
       event_id: ev0000003
       event_year: all
@@ -36,7 +39,8 @@ overlays:
 
   Golden Globe Winner:
     template:
-      name: award_ribbon
+      name: award_chart_ribbon
+      overlay_type: award
       file_name: golden
       weight: 160
     imdb_award:
@@ -65,12 +69,13 @@ overlays:
         - best tv show
       winning: true
 
-  # TODO: movies-only
   Golden Globe Best Director:
     template:
-      name: award_ribbon
+      name: award_chart_ribbon
+      overlay_type: award
       file_name: golden
       weight: 150
+    run_definition: movie
     imdb_award:
       event_id: ev0000292
       event_year: all
@@ -84,7 +89,8 @@ overlays:
   BAFTA Winners:
     schedule: never
     template:
-      name: award_ribbon
+      name: award_chart_ribbon
+      overlay_type: award
       file_name: bafta
       weight: 140
     imdb_award:
@@ -128,13 +134,14 @@ overlays:
       winning: true
 
   # TODO: overlay image
-  # TODO: movies-only
   Sundance Winners:
     schedule: never
     template:
-      name: award_ribbon
+      name: award_chart_ribbon
+      overlay_type: award
       file_name: sundance
       weight: 100
+    run_definition: movie
     imdb_award:
       event_id: ev0000631
       event_year: all
@@ -145,9 +152,11 @@ overlays:
 
   Emmys Winner:
     template:
-      name: award_ribbon
+      name: award_chart_ribbon
+      overlay_type: award
       file_name: emmy
       weight: 90
+    run_definition: show
     imdb_award:
       event_id: ev0000223
       event_year: all
@@ -181,21 +190,24 @@ overlays:
 
   IMDb Top 250:
     template:
-      name: chart_ribbon
+      name: award_chart_ribbon
+      overlay_type: chart
       file_name: imdb_250
       weight: 50
       imdb_key: top
 
   Rotten Tomatoes 100 Percent:
     template:
-      name: chart_ribbon
+      name: award_chart_ribbon
+      overlay_type: chart
       file_name: rt_gold
       weight: 41
     mdblist_list: https://mdblist.com/lists/ymendel/the-100-club
 
   Rotten Tomatoes Certified Fresh:
     template:
-      name: chart_ribbon
+      name: award_chart_ribbon
+      overlay_type: chart
       file_name: rt_silver
       weight: 40
     mdblist_list: https://mdblist.com/lists/linaspurinis/certified-fresh
