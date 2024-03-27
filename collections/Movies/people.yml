@@ -18,6 +18,7 @@ dynamic_collections:
       anderson: Wes Anderson
       coen: Coen Brothers
       herzog: Werner Herzog
+      kurosawa: Akira Kurosawa
       miyazaki: Hayao Miyazaki
       soderbergh: Steven Soderbergh
       waititi: Taika Waititi
@@ -30,6 +31,7 @@ dynamic_collections:
       sort_title_name:
         anderson: "Anderson, Wes"
         herzog: "Herzog, Werner"
+        kurosawa: "Kurosawa, Akira"
         miyazaki: "Miyazaki, Hayao"
         soderbergh: "Soderbergh, Steven"
         waititi: "Waititi, Taika"
@@ -42,6 +44,7 @@ dynamic_collections:
             - 1223
             - 1224
         herzog: 6818
+        kurosawa: 5026
         miyazaki: 608
         soderbergh: 1884
         waititi: 55934
