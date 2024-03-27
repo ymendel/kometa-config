@@ -16,6 +16,7 @@ collections:
       name: Collection
     trakt_list:
       - https://trakt.tv/users/giladg/lists/the-best-movie-you-never-saw
+    summary: "From the JoBlo Movie Network: a column dedicated to examining films that have flown under the radar or gained traction throughout the years, earning them a place as a cult classic or underrated gem that was either before its time and/or has aged like a fine wine."
     collection_order: random
 
   The Criterion Collection:
@@ -64,7 +65,7 @@ collections:
     template:
       name: Collection
       emoji: "🤨"
-    summary: "The films of the podcast 'How Did This Get Made?'"
+    summary: "The films of the podcast 'How Did This Get Made?': Paul Scheer, June Diane Raphael and Jason Mantzoukas deconstructing and mocking outlandish and bad films."
     trakt_list:
       - https://trakt.tv/users/lish408/lists/how-did-this-get-made-podcast
     collection_order: custom
@@ -87,7 +88,7 @@ collections:
     template:
       name: Collection
     letterboxd_list: https://letterboxd.com/marq/list/the-rewatchables/
-    summary: "The films of the podcast 'The Rewatchables', which features The Ringer’s Bill Simmons and a roundtable of people from The Ringer universe discussing movies they can’t seem to stop watching."
+    summary: "The films of the podcast 'The Rewatchables': The Ringer’s Bill Simmons and a roundtable of people from The Ringer universe discussing movies they can’t seem to stop watching."
     collection_order: custom
 
   Sculpting in Time:

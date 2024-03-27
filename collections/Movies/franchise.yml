@@ -14,6 +14,7 @@ collections:
       name: Franchise
     imdb_list:
       - https://www.imdb.com/list/ls068623110/
+    summary: "The trilogy of films does not share a storyline, and is named after its repeated passing references to Cornetto ice cream cones. In addition to brief references to the Cornetto ice cream brand, the films' plots have other common elements: each depicts romance and struggles with maturity."
 
   Deadpool:
     template:
@@ -73,6 +74,7 @@ collections:
       name: Franchise
     imdb_list:
       - https://www.imdb.com/list/ls023916334/
+    summary: "Although not Leone's intention, the three films came to be considered a trilogy following the exploits of the same so-called 'Man with No Name' (portrayed by Clint Eastwood, wearing the same clothes and acting with the same mannerisms). The 'Man with No Name' concept was invented by the American distributor United Artists, looking for a strong angle to sell the films as a trilogy. Eastwood's character does indeed have a name (albeit a nickname) and a different one in each film: 'Joe', 'Manco' and 'Blondie', respectively."
 
   "Ocean's":
     template:

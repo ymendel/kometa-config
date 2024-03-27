@@ -9,6 +9,9 @@ collections:
     name_mapping: Dune Franchise
     template:
       name: Franchise
+    # this makes it match the Movie collection, which gets the summary
+    # from tmdb_collection_details: 726871
+    summary: "The saga of Paul Atreides and his rise to power on the deadly planet Arrakis."
     tmdb_show:
       - 19566 # Syfy Dune
       - 9156  # Syfy Children of Dune
