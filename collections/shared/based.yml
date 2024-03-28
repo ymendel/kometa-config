@@ -8,7 +8,7 @@ collections:
       - name: separator
         separator: based
       - name: General
-        sort_title_name: "++Based"
+        sort_title_name: "Based"
 
 dynamic_collections:
 
