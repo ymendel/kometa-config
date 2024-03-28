@@ -4,6 +4,8 @@ libraries:
       assets_for_all: true
       mass_poster_update:
         source: lock                  # stop changing my posters, Plex!
+        seasons: false                # quiet a warning
+        episodes: false               # quiet a warning
     report_path: config/missing/Movies_missing.yml  # NOTE: this seems to do nothing at the moment
     template_variables:
       collection_mode: hide           # hide the collections in the "Library" tab
