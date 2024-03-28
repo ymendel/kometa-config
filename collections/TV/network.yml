@@ -1,0 +1,44 @@
+external_templates:
+  - folder: config/templates
+
+collections:
+
+  Network Collections:
+    template:
+      - name: separator
+        separator: network
+      # Network uses a smart filter, which interferes with the
+      # separator imdb_id
+      # TODO: figure this out and clean it up
+      - name: General
+        level: "+++++"
+        section: "100"
+
+dynamic_collections:
+
+  Network:
+    type: custom
+    data:
+      bbc: BBC
+      channel_4: Channel 4
+      dave: Dave
+      dropout: Dropout
+    title_format: <<key_name>> <<library_typeU>>s
+    template:
+      - dynamic_value_placeholder
+      - Network
+    template_variables:
+      logo_type:
+        default: color
+      network:
+        default: <<key_name>>
+        bbc:
+          - BBC America
+          - BBC One
+          - BBC Two
+          - BBC Three
+          - BBC Four
+      poster_url:
+        default: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/network/<<logo_type>>/<<key_name_encoded>>.jpg
+      image:
+        default: network/<<key_name_encoded>>
