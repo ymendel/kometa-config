@@ -13,7 +13,7 @@ collections:
       - name: Holiday
         level: "+++++"
           # NOTE: remember to add to schedule here whenever a new
-          # *visibile* range is added to a collection
+          # *visible* range is added to a collection
         schedule:
           - range(12/26-01/04)
           - range(02/01-02/20)
@@ -126,6 +126,8 @@ collections:
     template:
       name: Holiday
       emoji: "🌊🌺"
+      schedule: range(05/01-06/01)
+      visible: range(05/01-05/31)
       poster_name: aapi
     mdblist_list:
       - https://mdblist.com/lists/plexmetamanager/asian-american-pacific-islander-heritage-month

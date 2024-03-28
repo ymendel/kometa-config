@@ -75,6 +75,7 @@ templates:
       section: "030"
       poster_type: seasonal
       # unfortunately can't operate on these ranges, so need to have them separate
+      # TODO: maybe with `delete_not_scheduled` I don't have to worry about the visible range? check this out
       schedule: never
       visible: never
     conditionals: *conditionals

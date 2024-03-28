@@ -13,7 +13,7 @@ collections:
       - name: Holiday
         level: "+++++"
         # NOTE: remember to add to schedule here whenever a new
-        # *visibile* range is added to a collection
+        # *visible* range is added to a collection
         schedule:
           - range(03/01-03/31)
           - range(10/25-11/11)
