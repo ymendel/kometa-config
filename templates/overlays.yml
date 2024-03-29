@@ -12,6 +12,29 @@ templates:
       group: <<group>>
       weight: <<weight>>
 
+  standard_overlay:
+    default:
+      <<: *defaults
+      back_radius: 30
+    optional:
+      - vertical_align
+      - vertical_offset
+      - horizontal_align
+      - horizontal_offset
+      - back_color
+      - back_width
+      - back_height
+    overlay:
+      <<: *overlay
+      vertical_align: <<vertical_align>>
+      horizontal_align: <<horizontal_align>>
+      vertical_offset: <<vertical_offset>>
+      horizontal_offset: <<horizontal_offset>>
+      back_color: <<back_color>>
+      back_width: <<back_width>>
+      back_height: <<back_height>>
+      back_radius: <<back_radius>>
+
   status:
     default:
       <<: *defaults

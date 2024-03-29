@@ -1,0 +1,22 @@
+external_templates:
+  - folder: config/templates
+
+overlays:
+
+  Mediastinger:
+    template:
+      name: standard_overlay
+      overlay_type: image
+      group: mediastinger
+      weight: 100  # doesn't matter, since this is the only one for this group
+      vertical_align: top
+      vertical_offset: 15
+      horizontal_align: right
+      horizontal_offset: 200
+      back_color: "#00000099"
+      back_width: 105
+      back_height: 105
+    # I don't like the default plex_all with a filter
+    # tmdb_keyword can only take one keyword
+    # tmdb_discover has proven to not be entirely dependable
+    mdblist_list: https://mdblist.com/lists/ymendel/with-stingers

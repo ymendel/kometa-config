@@ -19,7 +19,6 @@ libraries:
       # "overlays" is where the actual overlay images are stored
       - folder: config/overlay/Movies
       - folder: config/overlay/shared
-      - pmm: mediastinger
   TV Shows:
     operations:
       assets_for_all: true
