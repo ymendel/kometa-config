@@ -5,14 +5,10 @@ collections:
 
   Network Collections:
     template:
-      - name: separator
+      - name: smart_separator
         separator: network
-      # Network uses a smart filter, which interferes with the
-      # separator imdb_id
-      # TODO: figure this out and clean it up
-      - name: General
+      - name: Network
         level: "+++++"
-        section: "100"
 
 dynamic_collections:
 

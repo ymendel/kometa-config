@@ -1,9 +1,20 @@
 templates:
 
-  separator:
-    default:
+  anchor_holder:
+    default: &defaults
       sep_style: orig
       poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/separators/<<sep_style>>/<<separator>>.jpg
+
+  common: &common
+    collection_mode: hide
+    url_poster: <<poster_url>>
+    visible_home: false
+    visible_library: false
+    visible_shared: false
+
+  # for most collections
+  separator:
+    default: *defaults
     optional:
       - placeholder_tmdb_movie
       - placeholder_tvdb_show
@@ -18,12 +29,17 @@ templates:
             value: false
           - placeholder_imdb_id.exists: true
             value: false
-    collection_mode: hide
+    <<: *common
     tmdb_movie: <<placeholder_tmdb_movie>>
     tvdb_show: <<placeholder_tvdb_show>>
     imdb_id: <<placeholder_imdb_id>>
     blank_collection: <<use_blank>>
-    url_poster: <<poster_url>>
-    visible_home: false
-    visible_library: false
-    visible_shared: false
+
+  # for the collections that use smart_filter
+  smart_separator:
+    default: *defaults
+    <<: *common
+    smart_filter:
+      all:
+        label: Separator Placeholder
+

@@ -225,6 +225,9 @@ templates:
             tmdb_person_offset.not: 0
             value: " (<<tmdb_person_offset_<<key>>>>)"
 
+  # apparently <<value>> needs to be used _somewhere_
+  # so this is an extra template to use for dynamic collections
+  # using templates not intended for dynamic collections (like Network)
   dynamic_value_placeholder:
     default:
       whatever: <<value>>
