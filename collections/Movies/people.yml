@@ -49,8 +49,6 @@ dynamic_collections:
         soderbergh: 1884
         waititi: 55934
       filters:
-        # have to explicitly say it's nothing
-        default:
         soderbergh:
           title.isnot:
             - Pleasantville

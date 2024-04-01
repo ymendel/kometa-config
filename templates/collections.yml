@@ -15,6 +15,10 @@ templates:
         conditions:
           - emoji.exists: true
             value: "<<emoji>> "
+      filters:
+        conditions:
+          - filters.exists: true
+            value: <<filters>>
 
   # this likewise is done to use as an alias later
   # it's separate from the above anchors for ease of extending
@@ -29,8 +33,6 @@ templates:
     visible_library: <<visible>>
     visible_shared: <<visible>>
     url_poster: <<poster_url>>
-    optional:
-      - filters
     # this is here for dynamic collections
     filters: <<filters>>
 
