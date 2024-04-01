@@ -1,11 +1,16 @@
 libraries:
   Movies:
     operations:
-      assets_for_all: true
-      mass_poster_update:
-        source: lock                  # stop changing my posters, Plex!
-        seasons: false                # quiet a warning
-        episodes: false               # quiet a warning
+      - schedule: daily
+        assets_for_all: true
+      - schedule: never               # this doesn't need to happen repeatedly, but I'll keep it around for sometimes
+        mass_poster_update:
+          source: lock                # stop changing my posters, Plex!
+          seasons: false              # quiet a warning
+          episodes: false             # quiet a warning
+      - schedule: weekly(sunday)
+        mass_audience_rating_update: mdb_tomatoesaudience
+        mass_critic_rating_update: mdb_tomatoes
     report_path: config/missing/Movies_missing.yml  # NOTE: this seems to do nothing at the moment
     template_variables:
       collection_mode: hide           # hide the collections in the "Library" tab
@@ -21,11 +26,16 @@ libraries:
       - folder: config/overlay/shared
   TV Shows:
     operations:
-      assets_for_all: true
-      mass_poster_update:
-        source: lock                   # stop changing my posters, Plex!
-        seasons: true
-        episodes: false                # this is too much
+      - schedule: daily
+        assets_for_all: true
+      - schedule: never               # this doesn't need to happen repeatedly, but I'll keep it around for sometimes
+        mass_poster_update:
+          source: lock                 # stop changing my posters, Plex!
+          seasons: true
+          episodes: false              # this is too much
+      - schedule: weekly(sunday)
+        mass_audience_rating_update: mdb_tomatoesaudience
+        mass_critic_rating_update: mdb_tomatoes
     report_path: config/missing/TV_missing.yml  # NOTE: this seems to do nothing at the moment
     template_variables:
       collection_mode: hide            # hide the collections in the "Library" tab
