@@ -2,7 +2,7 @@ libraries:
   Movies:
     operations:
       - schedule: daily
-        assets_for_all: true
+        assets_for_all: false         # I'm actually not using assets for anything but collections/playlists right now
       - schedule: never               # this doesn't need to happen repeatedly, but I'll keep it around for sometimes
         mass_poster_update:
           source: lock                # stop changing my posters, Plex!
@@ -27,7 +27,7 @@ libraries:
   TV Shows:
     operations:
       - schedule: daily
-        assets_for_all: true
+        assets_for_all: false         # I'm actually not using assets for anything but collections/playlists right now
       - schedule: never               # this doesn't need to happen repeatedly, but I'll keep it around for sometimes
         mass_poster_update:
           source: lock                 # stop changing my posters, Plex!
