@@ -2,18 +2,14 @@ external_templates:
   - folder: config/templates
 
 collections:
-
-  # Note: need to do schedule and visible separately, because I can't operate
-  # on the ranges and say "schedule for one day longer than the visibility"
-
   Seasonal Collections:
     template:
       - name: separator
         separator: seasonal
       - name: Holiday
         level: "+++++"
-        # NOTE: remember to add to schedule here whenever a new
-        # *visible* range is added to a collection
+        # NOTE: remember to add to schedule here whenever
+        # a new range is added to a collection
         schedule:
           - range(03/01-03/31)
           - range(10/25-11/11)
@@ -25,8 +21,7 @@ collections:
     template:
       name: Holiday
       emoji: "🚺"
-      schedule: range(03/01-04/01)
-      visible: range(03/01-03/31)
+      schedule: range(03/01-03/31)
       poster_name: women
     trakt_list:
       - https://trakt.tv/users/pterisaur/lists/women-s-history-month
@@ -36,8 +31,7 @@ collections:
     template:
       name: Holiday
       emoji: "🗳️"
-      schedule: range(10/25-11/12)
-      visible: range(10/25-11/11)
+      schedule: range(10/25-11/11)
       poster_type: genre
       poster_name: Politics
     summary: "I like the noise of democracy."
@@ -48,8 +42,7 @@ collections:
     template:
       name: Holiday
       emoji: "🎃"
-      schedule: range(10/01-11/01)
-      visible: range(10/01-10/31)
+      schedule: range(10/01-10/31)
       poster_name: halloween
     summary: "Boo!"
     builder_level: episode
@@ -66,8 +59,7 @@ collections:
     template:
       name: Holiday
       emoji: "🦃"
-      schedule: range(11/01-12/01)
-      visible: range(11/01-11/30)
+      schedule: range(11/01-11/30)
       poster_name: thanksgiving
     summary: "Gobble gobble!"
     builder_level: episode
@@ -79,8 +71,7 @@ collections:
     template:
       name: Holiday
       emoji: "🎅"
-      schedule: range(12/01-01/01)
-      visible: range(12/01-12/31)
+      schedule: range(12/01-12/31)
       poster_name: christmas
     summary: "Deck the halls!"
     builder_level: episode
