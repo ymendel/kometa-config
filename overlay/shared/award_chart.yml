@@ -5,7 +5,7 @@ external_templates:
 
 overlays:
 
-  Oscars Best Picture:
+  Oscars Winners:
     template:
       name: award_chart_ribbon
       overlay_type: award
@@ -18,26 +18,13 @@ overlays:
       category_filter:
         - best picture
         - best motion picture of the year
-      winning: true
-
-  Oscars Best Director:
-    template:
-      name: award_chart_ribbon
-      overlay_type: award
-      file_name: oscar
-      weight: 170
-    run_definition: movie
-    imdb_award:
-      event_id: ev0000003
-      event_year: all
-      category_filter:
         - best achievement in directing
         - best director
         - best director, comedy picture
         - best director, dramatic picture
       winning: true
 
-  Golden Globe Winner:
+  Golden Globe Winners:
     template:
       name: award_chart_ribbon
       overlay_type: award
@@ -67,19 +54,6 @@ overlays:
         - best television series - drama
         - best television special - variety or musical
         - best tv show
-      winning: true
-
-  Golden Globe Best Director:
-    template:
-      name: award_chart_ribbon
-      overlay_type: award
-      file_name: golden
-      weight: 150
-    run_definition: movie
-    imdb_award:
-      event_id: ev0000292
-      event_year: all
-      category_filter:
         - best director
         - best director - motion picture
         - best director, motion picture
@@ -150,7 +124,24 @@ overlays:
         - directing award
       winning: true
 
-  Emmys Winner:
+  Emmys Movie Winners:
+    template:
+      name: award_chart_ribbon
+      overlay_type: award
+      file_name: emmy
+      weight: 90
+    run_definition: movie
+    imdb_award:
+      event_id: ev0000223
+      event_year: all
+      category_filter:
+        - outstanding documentary or nonfiction special
+        - outstanding television movie
+        - outstanding directing for a limited or anthology series or movie
+        - outstanding directing for a documentary/nonfiction program
+      winning: true
+
+  Emmys TV Winners:
     template:
       name: award_chart_ribbon
       overlay_type: award
@@ -185,7 +176,10 @@ overlays:
         - outstanding miniseries
         - outstanding series - comedy
         - outstanding series - drama
+        - outstanding short form comedy, drama or variety series
         - outstanding variety sketch series
+        - outstanding structured reality program
+        - outstanding unstructured reality program
       winning: true
 
   IMDb Top 250:

@@ -34,6 +34,32 @@ collections:
       category_filter: best director
       winning: true
 
+  Emmys Best Picture Winners:
+    template:
+      name: Award
+      poster_type: award/emmys
+      poster_name: best_picture_winner
+    imdb_award:
+      event_id: ev0000223
+      event_year: all
+      category_filter:
+        - outstanding television movie
+        - outstanding documentary or nonfiction special
+      winning: true
+
+  Emmys Best Director Winners:
+    template:
+      name: Award
+      poster_type: award/emmys
+      poster_name: best_director_winner
+    imdb_award:
+      event_id: ev0000223
+      event_year: all
+      category_filter:
+        - outstanding directing for a limited or anthology series or movie
+        - outstanding directing for a documentary/nonfiction program
+      winning: true
+
   Golden Globes Best Picture Winners:
     template:
       name: Award
@@ -55,6 +81,8 @@ collections:
         - best motion picture, drama
         - best motion picture, musical or comedy
         - best motion picture, non-english language
+        - best television limited series, anthology series, or motion picture made for television
+        - best miniseries or motion picture made for television
       winning: true
 
   Golden Globes Best Director Winners:
