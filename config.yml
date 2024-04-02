@@ -143,7 +143,7 @@ radarr:                          # Can be individually specified per library as 
   add_missing: false
   add_existing: false
   upgrade_existing: false
-  root_folder_path: /share/Download
+  root_folder_path: /share/Download/Movies
   monitor: movie
   availability: announced
   quality_profile: "720->DVD w/ 1080"
@@ -158,7 +158,7 @@ sonarr:                          # Can be individually specified per library as 
   add_missing: false
   add_existing: false
   upgrade_existing: false
-  root_folder_path: /share/Download
+  root_folder_path: /share/Download/TV
   monitor: missing
   quality_profile: "720->TV w/ 1080"
   # I don't want only English, and I don't see language profiles in my Sonarr anyway (v4)
