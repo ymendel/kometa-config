@@ -6,6 +6,7 @@ collections:
   Chronicles of Riddick:
     template:
       name: Franchise
+      poster_type: skip  # using the TMDb collection poster
     tmdb_collection_details: 2794
     radarr_add_missing: true
 
@@ -29,6 +30,7 @@ collections:
     name_mapping: Dune Franchise
     template:
       name: Franchise
+      poster_type: skip  # using asset
     tmdb_collection_details: 726871
     radarr_add_missing: true
 
@@ -42,6 +44,7 @@ collections:
   Hellboy:
     template:
       name: Franchise
+      poster_type: skip  # using the TMDb collection poster
     tmdb_collection_details: 17235
     imdb_list:
       - https://www.imdb.com/list/ls042310244/
@@ -49,6 +52,7 @@ collections:
   The Hustler:
     template:
       name: Franchise
+      poster_type: skip  # using the TMDb collection poster
     tmdb_collection_details: 387219
 
   The Karate Kid:
@@ -60,12 +64,14 @@ collections:
   Kingsman:
     template:
       name: Franchise
+      poster_type: skip  # using the TMDb collection poster
     tmdb_collection_details: 391860
     radarr_add_missing: true
 
   Knives Out:
     template:
       name: Franchise
+      poster_type: skip  # using the TMDb collection poster
     tmdb_collection_details: 722971
     radarr_add_missing: true
 
@@ -79,6 +85,7 @@ collections:
   "Ocean's":
     template:
       name: Franchise
+      poster_type: skip  # using the TMDb collection poster
     tmdb_collection_details: 304
     imdb_list:
       - https://www.imdb.com/list/ls068557644/
@@ -90,6 +97,7 @@ collections:
     name_mapping: Ripley Franchise
     template:
       name: Franchise
+      poster_type: skip  # using asset
     summary: "Tom Ripley is a career criminal, con artist, and serial killer who always gets away with his crimes. The five novels in which he appears—The Talented Mr. Ripley, Ripley Under Ground, Ripley's Game, The Boy Who Followed Ripley, and Ripley Under Water—were published between 1955 and 1991. In every novel, he comes perilously close to getting caught or killed, but ultimately escapes danger."
     tmdb_movie:
       - 1213   # Talented Mr. Ripley
@@ -101,7 +109,7 @@ collections:
   Spider-Man:
     template:
       name: Franchise
-      poster_name: skip  # just use the TMDb collection poster
+      poster_type: skip  # using the TMDb collection poster
     tmdb_collection_details: 556
     radarr_add_missing: true
 
@@ -109,6 +117,7 @@ collections:
     template:
       name: Franchise
       sort_title_name: "Spider-Man, Amazing"
+      poster_type: skip  # using the TMDb collection poster
     tmdb_collection_details: 125574
     radarr_add_missing: true
 
@@ -116,27 +125,32 @@ collections:
     template:
       name: Franchise
       sort_title_name: "Spider-Man, MCU"
+      poster_type: skip  # using the TMDb collection poster
     tmdb_collection_details: 531241
     radarr_add_missing: true
 
   Spider-Verse:
     template:
       name: Franchise
+      poster_type: skip  # using the TMDb collection poster
     tmdb_collection_details: 573436
     radarr_add_missing: true
 
   The Thin Man:
     template:
       name: Franchise
+      poster_type: skip  # using the TMDb collection poster
     tmdb_collection_details: 47814
 
   Venom:
     template:
       name: Franchise
+      poster_type: skip  # using the TMDb collection poster
     tmdb_collection_details: 558216
     radarr_add_missing: true
 
   World of Watches:
     template:
       name: Franchise
+      poster_type: skip  # using the TMDb collection poster
     tmdb_collection_details: 3106

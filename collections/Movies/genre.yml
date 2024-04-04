@@ -13,4 +13,5 @@ collections:
   Screwball Comedy:
     template:
       name: Genre
+      poster_type: skip  # using asset
     tmdb_keyword: 155457

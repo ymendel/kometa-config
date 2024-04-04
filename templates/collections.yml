@@ -8,7 +8,7 @@ templates:
       sort_title_name: <<mapping_sort>>
       visible: false
       poster_name: <<mapping_name>>
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/<<poster_type>>/<<poster_name_encoded>>.jpg
+      poster_type: skip
     conditionals: &conditionals
       # TODO: name_suffix too - franchises could have a useful thing to specify "collection" or "series" or whatever
       name_prefix:
@@ -20,6 +20,10 @@ templates:
         conditions:
           - filters.exists: true
             value: <<filters>>
+      poster_url:
+        conditions:
+          - poster_type.not: skip
+            value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/<<poster_type>>/<<poster_name_encoded>>.jpg
     move_prefix: The, A, An
     name: <<name_prefix>><<mapping_name>>
     sort_title: <<section>>_+<<level>>_<<sort_title_name>>

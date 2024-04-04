@@ -9,6 +9,7 @@ collections:
     name_mapping: Dune Franchise
     template:
       name: Franchise
+      poster_type: skip  # using asset
     # this makes it match the Movie collection, which gets the summary
     # from tmdb_collection_details: 726871
     summary: "The saga of Paul Atreides and his rise to power on the deadly planet Arrakis."
@@ -22,6 +23,7 @@ collections:
     name_mapping: Ripley Franchise
     template:
       name: Franchise
+      poster_type: skip  # using asset
     summary: "Tom Ripley is a career criminal, con artist, and serial killer who always gets away with his crimes. The five novels in which he appears—The Talented Mr. Ripley, Ripley Under Ground, Ripley's Game, The Boy Who Followed Ripley, and Ripley Under Water—were published between 1955 and 1991. In every novel, he comes perilously close to getting caught or killed, but ultimately escapes danger."
     tmdb_show:
       - 94028  # Ripley

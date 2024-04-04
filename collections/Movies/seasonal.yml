@@ -243,6 +243,7 @@ collections:
       name: Holiday
       emoji: "🍬"
       schedule: range(10/01-10/31)
+      poster_type: skip  # using asset
     summary: "Trick or Treat!"
     trakt_list:
       - https://trakt.tv/users/hdlists/lists/halloween-movies-for-kids
@@ -305,6 +306,7 @@ collections:
       name: Holiday
       emoji: "🎁"
       schedule: range(12/01-12/31)
+      poster_type: skip  # using asset
     summary: "Christmas movies with extra sap!"
     trakt_list:
       - https://trakt.tv/users/mzdiobolik/lists/hallmark-christmas-movies
