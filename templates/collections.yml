@@ -1,8 +1,9 @@
 templates:
 
-  # this is _only_ to hold these anchors for later alias use
-  anchor_holder:
-    default: &defaults
+  # this is just a bunch of anchors for later
+  # alias use and extending
+  common: &common
+    default: &default
       level: ""
       sort_title_name: <<mapping_sort>>
       visible: false
@@ -19,10 +20,6 @@ templates:
         conditions:
           - filters.exists: true
             value: <<filters>>
-
-  # this likewise is done to use as an alias later
-  # it's separate from the above anchors for ease of extending
-  common: &common
     move_prefix: The, A, An
     name: <<name_prefix>><<mapping_name>>
     sort_title: <<section>>_+<<level>>_<<sort_title_name>>
@@ -37,21 +34,19 @@ templates:
     filters: <<filters>>
 
   New:
-    default:
-      <<: *defaults
-      section: "010"
-    conditionals: *conditionals
     <<: *common
+    default:
+      <<: *default
+      section: "010"
     visible_home: true
     visible_library: true
 
   InMemoriamActor:
+    <<: *common
     default:
-      <<: *defaults
+      <<: *default
       section: "020"
       visible: true
-    conditionals: *conditionals
-    <<: *common
     smart_filter:
       sort_by: release.desc
       any:
@@ -59,12 +54,11 @@ templates:
     tmdb_person: <<tmdb_id>>
 
   InMemoriamDirector:
+    <<: *common
     default:
-      <<: *defaults
+      <<: *default
       section: "021"
       visible: true
-    conditionals: *conditionals
-    <<: *common
     smart_filter:
       sort_by: release.desc
       any:
@@ -72,41 +66,37 @@ templates:
     tmdb_person: <<tmdb_id>>
 
   Holiday:
+    <<: *common
     default:
-      <<: *defaults
+      <<: *default
       section: "030"
       poster_type: seasonal
       schedule: never
       visible: true
-    conditionals: *conditionals
-    <<: *common
     delete_not_scheduled: true
     schedule: <<schedule>>
     collection_order: random
 
   Chart:
+    <<: *common
     default:
-      <<: *defaults
+      <<: *default
       section: "040"
       poster_type: chart
-    conditionals: *conditionals
-    <<: *common
     visible_library: true
 
   Award:
-    default:
-      <<: *defaults
-      section: "050"
-    conditionals: *conditionals
     <<: *common
+    default:
+      <<: *default
+      section: "050"
     visible_library: true
 
   ActorAward:
-    default:
-      <<: *defaults
-      section: "051"
-    conditionals: *conditionals
     <<: *common
+    default:
+      <<: *default
+      section: "051"
     smart_filter:
       all:
         actor: tmdb
@@ -114,42 +104,37 @@ templates:
 
   # y'know, just "collections"
   Collection:
-    default:
-      <<: *defaults
-      section: "065"
-    conditionals: *conditionals
     <<: *common
+    default:
+      <<: *default
+      section: "065"
 
   Franchise:
+    <<: *common
     default:
-      <<: *defaults
+      <<: *default
       section: "066"
       poster_type: franchise
-    conditionals: *conditionals
-    <<: *common
     collection_order: release.asc
 
   Genre:
+    <<: *common
     default:
-      <<: *defaults
+      <<: *default
       section: "070"
       poster_type: genre
-    conditionals: *conditionals
-    <<: *common
 
   Decade:
-    default:
-      <<: *defaults
-      section: "080"
-    conditionals: *conditionals
     <<: *common
+    default:
+      <<: *default
+      section: "080"
 
   Person:
-    default:
-      <<: *defaults
-      section: "090"
-    conditionals: *conditionals
     <<: *common
+    default:
+      <<: *default
+      section: "090"
     optional:
       - tmdb_id
     smart_filter:
@@ -162,41 +147,37 @@ templates:
     tmdb_person: <<tmdb_id>>
 
   Actor:
-    default:
-      <<: *defaults
-      section: "090"
-    conditionals: *conditionals
     <<: *common
+    default:
+      <<: *default
+      section: "090"
     optional:
       - tmdb_id
     tmdb_actor_details: <<tmdb_id>>
 
   Director:
-    default:
-      <<: *defaults
-      section: "090"
-    conditionals: *conditionals
     <<: *common
+    default:
+      <<: *default
+      section: "090"
     optional:
       - tmdb_id
     tmdb_director_details: <<tmdb_id>>
 
   Producer:
-    default:
-      <<: *defaults
-      section: "090"
-    conditionals: *conditionals
     <<: *common
+    default:
+      <<: *default
+      section: "090"
     optional:
       - tmdb_id
     tmdb_producer_details: <<tmdb_id>>
 
   Studio:
-    default:
-      <<: *defaults
-      section: "100"
-    conditionals: *conditionals
     <<: *common
+    default:
+      <<: *default
+      section: "100"
     smart_filter:
       sort_by: release.desc
       validate: false
@@ -204,11 +185,10 @@ templates:
         studio: <<studio>>
 
   Network:
-    default:
-      <<: *defaults
-      section: "100"
-    conditionals: *conditionals
     <<: *common
+    default:
+      <<: *default
+      section: "100"
     smart_filter:
       sort_by: release.desc
       validate: false
@@ -216,22 +196,19 @@ templates:
         network: <<network>>
 
   Streaming:
-    default:
-      <<: *defaults
-      section: "105"
-    conditionals: *conditionals
     <<: *common
+    default:
+      <<: *default
+      section: "105"
 
   Country:
-    default:
-      <<: *defaults
-      section: "110"
-    conditionals: *conditionals
     <<: *common
+    default:
+      <<: *default
+      section: "110"
 
   General:
-    default:
-      <<: *defaults
-      section: "120"
-    conditionals: *conditionals
     <<: *common
+    default:
+      <<: *default
+      section: "120"
