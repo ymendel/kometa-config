@@ -84,6 +84,20 @@ collections:
       - https://www.imdb.com/list/ls068557644/
     radarr_add_missing: true
 
+  Ripley:
+    # because the poster comes from an image asset
+    # and the collection mapping name matches the series name
+    name_mapping: Ripley Franchise
+    template:
+      name: Franchise
+    summary: "Tom Ripley is a career criminal, con artist, and serial killer who always gets away with his crimes. The five novels in which he appears—The Talented Mr. Ripley, Ripley Under Ground, Ripley's Game, The Boy Who Followed Ripley, and Ripley Under Water—were published between 1955 and 1991. In every novel, he comes perilously close to getting caught or killed, but ultimately escapes danger."
+    tmdb_movie:
+      - 1213   # Talented Mr. Ripley
+      - 10955  # Ripley's Game
+      - 10363  # Purple Noon
+      - 11222  # The American Friend
+      - 39127  # Ripley Under Ground
+
   Spider-Man:
     template:
       name: Franchise
