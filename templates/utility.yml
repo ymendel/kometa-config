@@ -4,7 +4,12 @@ templates:
   common: &common
     default:
       sep_style: orig
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/separators/<<sep_style>>/<<separator>>.jpg
+      separator: skip
+    conditionals: &conditionals
+      poster_url:
+        conditions:
+          - separator.notdefault: skip
+            value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/separators/<<sep_style>>/<<separator>>.jpg
     collection_mode: hide
     url_poster: <<poster_url>>
     visible_home: false
@@ -19,6 +24,7 @@ templates:
       - placeholder_tvdb_show
       - placeholder_imdb_id
     conditionals:
+      <<: *conditionals
       use_blank:
         default: true
         conditions:
@@ -39,4 +45,3 @@ templates:
     smart_filter:
       all:
         label: Separator Placeholder
-
