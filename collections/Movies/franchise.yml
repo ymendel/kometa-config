@@ -4,9 +4,12 @@ external_templates:
 collections:
 
   Chronicles of Riddick:
+    # because the poster comes from an image asset
+    # and the collection mapping name matches the movie/series name
+    name_mapping: Riddick Franchise
     template:
       name: Franchise
-      poster_type: skip  # using the TMDb collection poster
+      poster_type: skip  # using asset
     tmdb_collection_details: 2794
     radarr_add_missing: true
 
@@ -42,9 +45,12 @@ collections:
       - https://www.imdb.com/list/ls033994793/
 
   Hellboy:
+    # because the poster comes from an image asset
+    # and the collection mapping name matches the movie/series name
+    name_mapping: Hellboy Franchise
     template:
       name: Franchise
-      poster_type: skip  # using the TMDb collection poster
+      poster_type: skip  # using asset
     tmdb_collection_details: 17235
     imdb_list:
       - https://www.imdb.com/list/ls042310244/
