@@ -53,7 +53,7 @@ playlist_files:
   - folder: config/playlists
     template_variables:
       libraries: Movies, TV Shows
-  - pmm: playlist
+  - default: playlist
     template_variables:
       libraries: Movies, TV Shows
 settings:
