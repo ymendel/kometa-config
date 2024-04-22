@@ -19,4 +19,9 @@ overlays:
     # I don't like the default plex_all with a filter
     # tmdb_keyword can only take one keyword
     # tmdb_discover has proven to not be entirely dependable
-    mdblist_list: https://mdblist.com/lists/ymendel/with-stingers
+    # this mdblist has proven to also not be dependable, maybe because it uses tmdb_discover at some level?
+    # mdblist_list: https://mdblist.com/lists/ymendel/with-stingers
+    # back to plex-all with filter, I guess. I probably don't have a good reason to dislike this
+    plex_all: true
+    filters:
+      tmdb_keyword: aftercreditsstinger, duringcreditsstinger
