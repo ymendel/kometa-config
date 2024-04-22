@@ -1,16 +1,14 @@
-# Plex Meta Manager
+# Kometa Config
 
-Saving my configuration for [Plex Meta Manager (PMM)](https://metamanager.wiki/).
+Saving my configuration for [Kometa](https://kometa.wiki/).
 
 This is very much in-progress. I've just been tweaking it too much and not saving it in any good way.
 
 Useful links:
 
-- https://metamanager.wiki/, of course
-- https://github.com/meisnate12/Plex-Meta-Manager
-- https://github.com/meisnate12/Plex-Meta-Manager-Configs
-- https://github.com/meisnate12/Plex-Meta-Manager-Configs/blob/master/nwithan8/tips_and_tricks.md
-  - reproduced somewhat below; being adjusted
+- https://kometa.wiki/, of course
+- https://github.com/Kometa-Team/Kometa
+- https://github.com/Kometa-Team/Community-Configs
 
 TODOs:
 - move over all collections from config.yml to separate files
@@ -89,8 +87,7 @@ Affect on sorting, in order:
 #### Visibility
 
 - `visible_library`, `visible_home` and `visible_shared`
-    - `true`, `false` or [schedule](https://github.com/meisnate12/Plex-Meta-Manager/wiki/Schedule-Detail) available for
-      all options
+    - `true`, `false` or [schedule](https://kometa.wiki/en/latest/config/schedule/) available for all options
     - `visible_library`: Will be visible in the Recommended tab for a specific library (and in the Library tab if you have chose to intermix collections in with library items)
     - `visible_home`: Will be visible on your Home page (what appears on your Home page is determined by what libraries you have pinned)
     - `visible_shared`: Will be visible in the Home page for other users (what appears on their Home page is determined by what libraries they have pinned)

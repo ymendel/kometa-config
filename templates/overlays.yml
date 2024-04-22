@@ -77,5 +77,5 @@ templates:
     optional:
       - mdb_key
       - imdb_key
-    mdblist_list: https://mdblist.com/lists/plexmetamanager/<<mdb_key>><<library_type>>s
+    mdblist_list: https://mdblist.com/lists/k0meta/<<mdb_key>><<library_type>>s
     imdb_chart: <<imdb_key>>_<<library_type>>s

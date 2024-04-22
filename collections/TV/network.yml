@@ -35,6 +35,6 @@ dynamic_collections:
           - BBC Three
           - BBC Four
       poster_url:
-        default: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/network/<<logo_type>>/<<key_name_encoded>>.jpg
+        default: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/network/<<logo_type>>/<<key_name_encoded>>.jpg
       image:
         default: network/<<key_name_encoded>>

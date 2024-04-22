@@ -23,7 +23,7 @@ templates:
       poster_url:
         conditions:
           - poster_type.notdefault: skip
-            value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/<<poster_type>>/<<poster_name_encoded>>.jpg
+            value: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/<<poster_type>>/<<poster_name_encoded>>.jpg
     move_prefix: The, A, An
     name: <<name_prefix>><<mapping_name>>
     sort_title: <<section>>_+<<level>>_<<sort_title_name>>

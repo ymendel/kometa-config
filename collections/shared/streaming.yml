@@ -39,7 +39,7 @@ dynamic_collections:
     template_variables:
       poster_url:
         # TODO: conditional on originals_only to decide on <<library_type>>s vs. originals?
-        default: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/streaming/<<key_name_encoded>>_<<library_type>>s.jpg
+        default: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/streaming/<<key_name_encoded>>_<<library_type>>s.jpg
       image:
         default: streaming/<<key_name_encoded>>
       originals_only:

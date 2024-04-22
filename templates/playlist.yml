@@ -3,7 +3,7 @@ templates:
   playlist:
     default:
       poster_name: <<mapping_name>>
-      poster_url: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/<<poster_type>>/<<poster_name_encoded>>.jpg
+      poster_url: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/<<poster_type>>/<<poster_name_encoded>>.jpg
     libraries: <<libraries>>
     sync_mode: sync
     sync_to_users: all

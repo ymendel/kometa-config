@@ -9,7 +9,7 @@ templates:
       poster_url:
         conditions:
           - separator.notdefault: skip
-            value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/separators/<<sep_style>>/<<separator>>.jpg
+            value: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/separators/<<sep_style>>/<<separator>>.jpg
     collection_mode: hide
     url_poster: <<poster_url>>
     visible_home: false

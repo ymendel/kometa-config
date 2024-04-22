@@ -25,9 +25,9 @@ dynamic_collections:
       - General
     template_variables:
       poster_url:
-        default: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/based/<<key_name_encoded>>.jpg
+        default: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/based/<<key_name_encoded>>.jpg
       mdblist_list:
-        default: https://mdblist.com/lists/plexmetamanager/based_on_<<key>>_<<library_type>>s
+        default: https://mdblist.com/lists/k0meta/based_on_<<key>>_<<library_type>>s
       image:
         default: based/<<key_name_encoded>>
       dynamic:

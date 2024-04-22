@@ -63,7 +63,7 @@ collections:
       - https://trakt.tv/users/hoochzilla/lists/black-cinema
       - https://trakt.tv/users/bluephi8/lists/black-history
     mdblist_list:
-      - https://mdblist.com/lists/plexmetamanager/black-history-month
+      - https://mdblist.com/lists/k0meta/black-history-month
 
   "St. Patrick's Day":
     template:
@@ -121,7 +121,7 @@ collections:
       schedule: range(05/01-05/31)
       poster_name: aapi
     mdblist_list:
-      - https://mdblist.com/lists/plexmetamanager/asian-american-pacific-islander-heritage-month
+      - https://mdblist.com/lists/k0meta/asian-american-pacific-islander-heritage-month
 
   "Mother's Day":
     template:
@@ -151,7 +151,7 @@ collections:
       schedule: range(06/01-06/31)
       poster_name: lgbtq
     mdblist_list:
-      - https://mdblist.com/lists/plexmetamanager/lgbtq-pride-month
+      - https://mdblist.com/lists/k0meta/lgbtq-pride-month
 
   "Father's Day":
     template:
@@ -197,7 +197,7 @@ collections:
       schedule: range(09/15-10/15)
       poster_name: latinx
     mdblist_list:
-      - https://mdblist.com/lists/plexmetamanager/latinx-heritage-month
+      - https://mdblist.com/lists/k0meta/latinx-heritage-month
 
   Halloween:
     template:
