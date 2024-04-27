@@ -111,14 +111,22 @@ templates:
     <<: *common
     default:
       <<: *default
-      section: "065"
+      section: "060"
 
   Franchise:
     <<: *common
     default:
       <<: *default
-      section: "066"
+      section: "065"
       poster_type: franchise
+    collection_order: release.asc
+
+  Universe:
+    <<: *common
+    default:
+      <<: *default
+      section: "066"
+      poster_type: universe
     collection_order: release.asc
 
   Genre:

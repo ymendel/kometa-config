@@ -57,7 +57,7 @@ Prefixes in use:
 #   030_+ = Holidays
 #   040_+ = Charts
 #   050_+ = Awards
-#   060_+ = Collections / Franchises
+#   060_+ = Collections / Franchises / Universes
 #   070_+ = Genres
 #   080_+ = Decades
 #   090_+ = People

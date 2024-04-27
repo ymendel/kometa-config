@@ -1,0 +1,17 @@
+external_templates:
+  - folder: config/templates
+
+collections:
+
+  Universe Collections:
+    template:
+      - name: separator
+        separator: universe
+      - name: Universe
+        level: "+++++"
+
+  Marvel Cinematic Universe:
+    template:
+      name: Universe
+      poster_name: mcu
+    trakt_list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe
