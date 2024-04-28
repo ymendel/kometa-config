@@ -147,7 +147,7 @@ radarr:                          # Can be individually specified per library as 
   monitor: movie
   availability: announced
   quality_profile: "720->DVD w/ 1080"
-  tag: PMM
+  tag: kometa
   search: true
   radarr_path:  # leaving this out, only important with add_existing or radarr_add_all
   plex_path:    # leaving this out, only important with add_existing or radarr_add_all
@@ -165,7 +165,7 @@ sonarr:                          # Can be individually specified per library as 
   # language_profile: English
   series_type: standard
   season_folder: true
-  tag: PMM
+  tag: kometa
   search: true
   cutoff_search: false
   sonarr_path:  # leaving this out, only important with add_existing or sonarr_add_all
