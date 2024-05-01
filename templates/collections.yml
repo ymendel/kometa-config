@@ -120,6 +120,7 @@ templates:
       section: "065"
       poster_type: franchise
     collection_order: release.asc
+    minimum_items: 2
 
   Universe:
     <<: *common
@@ -128,6 +129,7 @@ templates:
       section: "066"
       poster_type: universe
     collection_order: release.asc
+    minimum_items: 2
 
   Genre:
     <<: *common

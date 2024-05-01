@@ -38,6 +38,7 @@ templates:
     tvdb_show: <<placeholder_tvdb_show>>
     imdb_id: <<placeholder_imdb_id>>
     blank_collection: <<use_blank>>
+    minimum_items: 1  # TODO: deal with use_blank somehow
 
   # for the collections that use smart_filter
   smart_separator:

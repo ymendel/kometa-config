@@ -81,6 +81,11 @@ collections:
     tmdb_collection_details: 722971
     radarr_add_missing: true
 
+  Mad Max:
+    template:
+      name: Franchise
+    tmdb_collection_details: 8945
+
   The Man With No Name:
     template:
       name: Franchise
