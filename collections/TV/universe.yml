@@ -9,5 +9,6 @@ collections:
       poster_type: skip  # using asset
     tmdb_show:
       - 65798  # Letterkenny
+      - 103525 # Littlekenny
       - 158756 # Shoresy
 
