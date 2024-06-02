@@ -40,7 +40,6 @@ collections:
   Filmic Lies:
     template:
       name: Collection
-      # TODO: poster
     letterboxd_list: https://letterboxd.com/darrencb/list/filmic-lies-fictional-stories-about-real/
     summary: "Fictional stories about real people. Historical films about real people or notable real events, but tell fictitious stories."
     collection_order: custom
@@ -67,7 +66,7 @@ collections:
       emoji: "🤨"
     summary: "The films of the podcast 'How Did This Get Made?': Paul Scheer, June Diane Raphael and Jason Mantzoukas deconstructing and mocking outlandish and bad films."
     trakt_list:
-      - https://trakt.tv/users/lish408/lists/how-did-this-get-made-podcast
+      - https://trakt.tv/users/echelon_four/lists/how-did-this-get-made-reviewed-movies
     collection_order: custom
 
   Jimmy Carter at the White House:
