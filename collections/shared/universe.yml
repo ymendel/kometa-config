@@ -8,7 +8,7 @@ collections:
       - name: separator
         separator: universe
       - name: Universe
-        level: "+++++"
+        level: "!!!!!"
 
   Marvel Cinematic Universe:
     template:

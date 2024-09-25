@@ -8,7 +8,7 @@ collections:
       - name: separator
         separator: chart
       - name: Chart
-        level: "+++++"
+        level: "!!!!!"
 
   RottenTomatoes Certified Fresh:
     template:

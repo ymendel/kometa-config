@@ -8,7 +8,7 @@ collections:
       - name: separator
         separator: genre
       - name: Genre
-        level: "+++++"
+        level: "!!!!!"
 
   Anthology:
     template:

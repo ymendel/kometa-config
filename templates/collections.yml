@@ -26,7 +26,7 @@ templates:
             value: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/<<poster_type>>/<<poster_name_encoded>>.jpg
     move_prefix: The, A, An
     name: <<name_prefix>><<mapping_name>>
-    sort_title: <<section>>_+<<level>>_<<sort_title_name>>
+    sort_title: <<section>>_!<<level>>_<<sort_title_name>>
     collection_mode: <<collection_mode>>
     sync_mode: sync
     schedule: daily

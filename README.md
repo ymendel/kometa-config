@@ -39,31 +39,31 @@ TODOs:
 #### Ordering
 
 - Use sort_title to promote and demote certain collections
-    - start with `+` to promote to top of library
+    - start with `!` to promote to top of library
     - start with `~` to demote to bottom of a library
     - can use A-Z to additionally organize collections via levels
 - Recommended to start with a number corresponding to a category
     - `1` above `2` above `3` etc.
-- Use `+` and `~` to promote and demote secondarily
-    - `1_++_` above `1_+_` above `1__` above `1_~_` above `1_~~_`
-    - `1_+_` above `1_~_` above `2_+_` above `3__`, etc.
+- Use `!` and `~` to promote and demote secondarily
+    - `1_!!_` above `1_!_` above `1__` above `1_~_` above `1_~~_`
+    - `1_!_` above `1_~_` above `2_!_` above `3__`, etc.
 
 Prefixes in use:
 
 ```
 # Prefixes for Collections:
-#   010_+ = New
-#   020_+ = People (in memoriam)
-#   030_+ = Holidays
-#   040_+ = Charts
-#   050_+ = Awards
-#   060_+ = Collections / Franchises / Universes
-#   070_+ = Genres
-#   080_+ = Decades
-#   090_+ = People
-#   100_+ = Studios / Networks / Streaming
-#   110_+ = Countries
-#   120_+ = General / Unspecified
+#   010_! = New
+#   020_! = People (in memoriam)
+#   030_! = Holidays
+#   040_! = Charts
+#   050_! = Awards
+#   060_! = Collections / Franchises / Universes
+#   070_! = Genres
+#   080_! = Decades
+#   090_! = People
+#   100_! = Studios / Networks / Streaming
+#   110_! = Countries
+#   120_! = General / Unspecified
 ```
 
 These collection uses a combination of all these prefixes, and are always sorted in a specific way. Take this example from the Holiday template.
@@ -72,7 +72,7 @@ These collection uses a combination of all these prefixes, and are always sorted
 default:
   level: ""
   sort_title_name: <<collection_name>>
-sort_title: 030_+<<level>>_<<sort_title_name>>
+sort_title: 030_!<<level>>_<<sort_title_name>>
 ```
 
 Affect on sorting, in order:
@@ -80,7 +80,7 @@ Affect on sorting, in order:
 1. Category:
   - e.g. "New" collections (010) will always be above "Award" collections (050)
 2. Level:
-  - e.g. `+++` will always be above `+`, `~~~` will always be below `~`, "A" will always be above "B"
+  - e.g. `!!!` will always be above `!`, `~~~` will always be below `~`, "A" will always be above "B"
 3. Alphabetical:
   - Finally, collections are sorted alphabetically. This can be adjusted with the `sort_title_name`, which defaults to the collection name.
 

@@ -10,7 +10,7 @@ collections:
       - name: separator
         separator: award
       - name: Award
-        level: "+++++"
+        level: "!!!!!"
 
   BAFTA Best in Category Winners:
     template:

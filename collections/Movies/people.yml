@@ -8,7 +8,7 @@ collections:
       - name: separator
         separator: director
       - name: Director
-        level: "+++++"
+        level: "!!!!!"
 
 dynamic_collections:
 

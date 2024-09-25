@@ -8,7 +8,7 @@ collections:
       - name: smart_separator
         separator: network
       - name: Network
-        level: "+++++"
+        level: "!!!!!"
 
 dynamic_collections:
 
