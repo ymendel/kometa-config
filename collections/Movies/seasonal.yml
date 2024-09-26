@@ -8,9 +8,9 @@ collections:
       - name: separator
         separator: seasonal
       - name: Holiday
-        level: "!!!!!"
-          # NOTE: remember to add to schedule here whenever
-          # a new range is added to a collection
+        level: "!"
+        # NOTE: remember to add to schedule here whenever
+        # a new range is added to a collection
         schedule:
           - range(12/26-01/04)
           - range(02/01-02/20)

@@ -7,7 +7,7 @@ collections:
       - name: separator
         separator: seasonal
       - name: Holiday
-        level: "!!!!!"
+        level: "!"
         # NOTE: remember to add to schedule here whenever
         # a new range is added to a collection
         schedule:

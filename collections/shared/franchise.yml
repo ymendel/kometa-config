@@ -8,4 +8,4 @@ collections:
       - name: separator
         separator: franchise
       - name: Franchise
-        level: "!!!!!"
+        level: "!"

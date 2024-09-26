@@ -9,7 +9,7 @@ collections:
     template:
       - name: separator
       - name: Collection
-        level: "!!!!!"
+        level: "!"
 
   The Best Movie You Never Saw:
     template:
