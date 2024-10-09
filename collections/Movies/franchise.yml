@@ -3,6 +3,12 @@ external_templates:
 
 collections:
 
+  Beetlejuice:
+    template:
+      name: Franchise
+    tmdb_collection_details: 945475
+    radarr_add_missing: true
+
   Chronicles of Riddick:
     # because the poster comes from an image asset
     # and the collection mapping name matches the movie/series name
