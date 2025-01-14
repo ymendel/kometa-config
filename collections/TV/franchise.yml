@@ -16,6 +16,7 @@ collections:
     tmdb_show:
       - 19566 # Syfy Dune
       - 9156  # Syfy Children of Dune
+      - 90228 # Dune: Prophecy
 
   Ripley:
     # because the poster comes from an image asset
