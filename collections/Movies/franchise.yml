@@ -123,6 +123,12 @@ collections:
       - 11222  # The American Friend
       - 39127  # Ripley Under Ground
 
+  A Simple Favor:
+    template:
+      name: Franchise
+      poster_type: skip  # using the TMDb collection poster
+    tmdb_collection_details: 975201
+
   Spider-Man:
     template:
       name: Franchise
