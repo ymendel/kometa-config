@@ -1,0 +1,15 @@
+external_templates:
+  - folder: config/templates
+
+collections:
+
+  The Muppets:
+    # because the poster comes from an image asset
+    # and the collection mapping name matches the movie/series name
+    name_mapping: Muppets Universe
+    template:
+      name: Universe
+      poster_type: skip  # using asset
+    imdb_list:
+      - https://www.imdb.com/list/ls002212695/
+
